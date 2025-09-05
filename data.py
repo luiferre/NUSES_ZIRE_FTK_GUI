@@ -375,7 +375,7 @@ class Data(QWidget):
         HG_selected = data_HG[bin_iniziale:bin_iniziale + bin_num, :]
         LG_selected = data_LG[bin_iniziale:bin_iniziale + bin_num, :]
 
-        # 🔹 Crea figura HG con 5 subplot (uno per ASIC)
+        
         fig_HG, axs_HG = plt.subplots(NUM_ASIC, 1, figsize=(10, 12), sharex=True)
         fig_HG.suptitle("HG")
 
@@ -389,7 +389,7 @@ class Data(QWidget):
 
         axs_HG[-1].set_xlabel("Bin ADC")
 
-        # 🔹 Crea figura LG con 5 subplot (uno per ASIC)
+        
         fig_LG, axs_LG = plt.subplots(NUM_ASIC, 1, figsize=(10, 12), sharex=True)
         fig_LG.suptitle("LG")
 

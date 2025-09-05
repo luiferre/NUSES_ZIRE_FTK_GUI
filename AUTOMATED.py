@@ -8,22 +8,26 @@ SERVER_IP = "192.168.102.159"
 PORT_CONTROL = 3000
 PORT_DATA = 2000
 SOCK_TIMEOUT = 1
-CONFIG_PATH = "D:\\NUSES\\DEBUG_GUI_2DAQ\\NUSES_ZIRE_FTK_GUI\\ftk_cfg.json"
-RESULT_PATH = "D:\\NUSES\\DEBUG_GUI_2DAQ\\NUSES_ZIRE_FTK_GUI\\RESULTS\\AUTO"
+CONFIG_PATH = "D:\\NUSES\\FTK_DEBUG_v2\\ftk_cfg.json"
+RESULT_PATH = "D:\\NUSES\\FTK_DEBUG_v2\\RESULTS\\AUTO"
 DATA_DIM = 16384
 NUM_ASIC = 6
 NUM_CH = 32
 SCALE = 16384 // DATA_DIM
 DEBUG = False
-# Usage: python AUTOMATED.py <time/events/monitor> <seconds/num_evs/cmd> <filename/none>  skip (no brackets) #
-# skip to skip the configuration loading #
-# cmd for monitor daq_asic_ch_cmd #
-# daq = 00 or 01 #
-# asic = 00-05 #
-# ch = 00-31 #
-# cmd = reset, fson, fsoff, sshonlg, sshofflg, sshonhg, sshoffhg, paonlg, paofflg, paonhg, paoffhg, dacon, dacoff, pdonnlg, pdofflg, pdonhg, pdoffhg #
-# example: python AUTOMATED.py monitor 01_03_15_reset none #
-##############################################################################################
+##############################################################################################################
+# Usage: python AUTOMATED.py <time/events/monitor> <seconds/num_evs/cmd> <filename/none>  skip  ##############
+##############################################################################################################
+# skip to skip the configuration loading 
+# cmd for monitor daq_asic_ch_cmd 
+# daq = 00 or 01 
+# asic = 00-05
+# ch = 00-31 
+# cmd = reset, fson, fsoff, sshonlg, sshofflg, sshonhg, sshoffhg, paonlg, paofflg, ... 
+# ..paonhg, paoffhg, dacon, dacoff, pdonnlg, pdofflg, pdonhg, pdoffhg 
+#
+# example: python AUTOMATED.py monitor 01_03_15_reset none 
+##############################################################################################################
 
 # Inizializza istogrammi globali (accumulati su più eventi)
 LG_acc = np.zeros((2, NUM_ASIC, NUM_CH, DATA_DIM), dtype=np.uint32)
@@ -157,7 +161,7 @@ class ZIRE_AUTO:
 def parse_monitor_arg(arg: str):
     """
     Accetta stringa 'daq_asic_ch_cmd' (es. '01_03_15_reset')
-    Ritorna: (cmd3, board, asic, ch)
+    Manda: (cmd3, board, asic, ch)
     """
     try:
         daq_s, asic_s, ch_s, cmd_s = arg.strip().split("_", 3)
@@ -180,7 +184,9 @@ def parse_monitor_arg(arg: str):
         raise ValueError(f"Argomento monitor non valido: {arg} ({e})")
 
 ############################
-# MAIN
+########### MAIN ###########
+############################
+
 if __name__ == "__main__":
     if len(sys.argv) < 3:
         if DEBUG:
@@ -192,8 +198,8 @@ if __name__ == "__main__":
             sys.exit(1)
     else:
         TYPE = sys.argv[1]
-        if TYPE not in ["time", "events", "monitor", "config"]:
-            print("Tipo non valido. Usare 'time', 'events' o 'monitor'.")
+        if TYPE not in ["time", "events", "monitor", "config", "stats"]:
+            print("Tipo non valido. Usare 'time', 'events', 'monitor', 'config' or 'stats' .")
             sys.exit(1)
         elif TYPE in ["time", "events"]:
             COUNTS = int(sys.argv[2])
@@ -318,7 +324,6 @@ if __name__ == "__main__":
             print("Acquisition teminated!")
 
         elif TYPE == "monitor":
-            # sys.argv[2] es: "01_03_15_reset"
             try:
                 frame = parse_monitor_arg(sys.argv[2])
                 ZIRE.CONTROL.sendall(frame.encode())
@@ -326,6 +331,34 @@ if __name__ == "__main__":
             except ValueError as e:
                 print(e)
                 sys.exit(1)
+
+        elif TYPE == "stats":
+            try:
+                ZIRE.CONTROL.sendall(b"getstats")
+                time.sleep(1)
+                ZIRE.CONTROL.settimeout(2)
+                received = bytearray()
+                while len(received) < (2*(192+16)*4):
+                    chunk = ZIRE.CONTROL.recv( (2*(192+16)*4) - len(received))
+                    if not chunk:
+                        print("Connessione chiusa durante la ricezione delle statistiche")
+                    received.extend(chunk)
+                
+                stats = np.frombuffer(received, dtype=np.uint32)
+
+                # Segmentazione
+                rate1 = stats[0:192]
+                temp1 = stats[192:192+16]
+                rate2 = stats[192+16:192+16+192]
+                temp2 = stats[192+16+192:]
+
+                print("Rate 1:", rate1)
+                print("Temp 1:", temp1)
+                print("Rate 2:", rate2)
+                print("Temp 2:", temp2)
+
+            except socket.timeout:
+                print("Timeout: nessun dato disponibile.")
 
     except KeyboardInterrupt:
         print("\nInterruzione manuale ricevuta (Ctrl+C)")
