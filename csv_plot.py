@@ -50,7 +50,7 @@ def result_plot (df):
         # 🔹 Mostra le due figure interattivamente
         plt.show()
 
-df = pd.read_csv("D:\\NUSES\\FTK_DEBUG_v2\\RESULTS\\AUTO\\dummy.csv", header=None)
+df = pd.read_csv("D:\\NUSES\\FTK_DEBUG_v2\\RESULTS\\AUTO\\test_bari.csv", header=None)
 mid_index = df.shape[1] // 2
 daq_1 = df.iloc[:, :mid_index]
 daq_2 = df.iloc[:, mid_index:]

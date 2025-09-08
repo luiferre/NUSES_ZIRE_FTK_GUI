@@ -2,7 +2,7 @@
     "ID_CFG": "FTK",
     "config": {
         "trigger": {
-            "concentrator_mode": [3,2],
+            "concentrator_mode": [0,2],
             "concentrator_periodic": [25000,4],
             "validation_src": [0,1],
             "validation": [false,1],
@@ -15,7 +15,7 @@
             "rstb_en": [false,1],
             "holdwin": [12,3],
             "fake": [false, 1],
-            "test_mode":["all0", 4]
+            "test_mode":["none", 4]
         },
         "DAC": {
             "offset": [1150, 2]
@@ -25,7 +25,7 @@
                 "daq": ["1",1],
                 "daq_trg_en": [1,1],
                 "daq_trg_mode": [0,1],
-                "daq_trg_src": [0,1],
+                "daq_trg_src": [2,1],
                 "daq_trg_period": [25000,4]
             },
             "asic_1": {
@@ -1442,9 +1442,9 @@
         "daq_2": {            
             "general": {
                 "daq": ["2",1],
-                "daq_trg_en": [0,1],
+                "daq_trg_en": [1,1],
                 "daq_trg_mode": [0,1],
-                "daq_trg_src": [0,1],
+                "daq_trg_src": [2,1],
                 "daq_trg_period": [20000,4]
             },
             "asic_1": {

@@ -4,7 +4,7 @@ import pandas as pd
 import cfg_converter as cfg
 
 ##############################################################################################
-SERVER_IP = "192.168.102.159"
+SERVER_IP = "192.168.100.50"
 PORT_CONTROL = 3000
 PORT_DATA = 2000
 SOCK_TIMEOUT = 1
@@ -124,6 +124,7 @@ class ZIRE_AUTO:
         except socket.timeout:
             print("Timeout: nessun pacchetto disponibile.")
             return None
+        
         except Exception as e:
             print(f"Errore durante la ricezione dei dati: {e}")
             return None
