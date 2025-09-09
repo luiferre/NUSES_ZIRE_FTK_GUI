@@ -328,8 +328,8 @@ class Data(QWidget):
                     if self.event_count % 1000 == 0:
                         self.log_signal.emit(f"Event count: {self.event_count}")
 
-                    ocr = (count_rates >> 16) & 0xFFFF
-                    icr = count_rates & 0xFFFF
+                    icr = (count_rates >> 16) & 0xFFFF
+                    ocr = count_rates & 0xFFFF
                     self.icr_ocr_signal.emit(ocr, icr)
 
                     # istogramma corrente (preview)
@@ -452,17 +452,16 @@ class Data(QWidget):
             # scalari, non array (evita ambiguità booleane)
             daq_id_1      = int.from_bytes(received[16:20],  "little", signed=False)
             count_rates_1 = int.from_bytes(received[28:32],  "little", signed=False)
-            # 768B -> 192 uint32 little-endian
             data_1        = np.frombuffer(received, dtype="<u4", offset=32, count=192).copy()
 
-            # 4) parse pack 2 se presente
-            daq_id_2 = count_rates_2 = None
-            data_2 = None
             if length >= 1616:
-                daq_id_2      = int.from_bytes(received[816:820], "little", signed=False)
                 count_rates_2 = int.from_bytes(received[828:832], "little", signed=False)
                 data_2        = np.frombuffer(received, dtype="<u4", offset=832, count=192).copy()
 
+                self.update_histo(data_1, 1)
+                self.update_histo(data_2, 2)
+                return count_rates_2, data_2
+            
             # 5) selezione DAQ (confronti su SCALARI)
             if self.daq_id == 1 and daq_id_1 == 0x00AAAA00:
                 self.update_histo(data_1, 1)
@@ -471,12 +470,6 @@ class Data(QWidget):
             if self.daq_id == 2 and daq_id_1 == 0x00BBBB00:
                 self.update_histo(data_1, 2)
                 return count_rates_1, data_1
-
-            if self.daq_id == 2 and daq_id_2 == 0x00BBBB00:
-                # se arrivano entrambi, aggiorna anche DAQ1
-                self.update_histo(data_1, 1)
-                self.update_histo(data_2, 2)
-                return count_rates_2, data_2
 
             return None, None
 

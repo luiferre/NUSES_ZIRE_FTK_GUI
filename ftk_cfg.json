@@ -23,243 +23,243 @@
         "daq_1": {            
             "general": {
                 "daq": ["1",1],
-                "daq_trg_en": [1,1],
+                "daq_trg_en": [0,1],
                 "daq_trg_mode": [0,1],
-                "daq_trg_src": [2,1],
+                "daq_trg_src": [0,1],
                 "daq_trg_period": [25000,4]
             },
             "asic_1": {
                 "general": {
                    "fastsh_source": ["h", 1],
-                    "HGshtime": [2,1],
-                    "LGshtime": [2,1],
-                    "input_DACref": [0,1],
-                    "timethrs": [320,2],
+                    "HGshtime": [0,1],
+                    "LGshtime": [0,1],
+                    "input_DACref": [1,1],
+                    "timethrs": [300,2],
                     "chargeth": [450,2]
                     
                 },
                 "ch_0": {
-                    "inputDAC": [50,2],
+                    "inputDAC": [230,2],
                     "DACtime": [7,1],
                     "mask": [false,1],
-                    "gain_hg": [10,2],
+                    "gain_hg": [50,2],
                     "gain_lg": [10,2]
                 },
                 "ch_1": {
-                    "inputDAC": [50,2],
+                    "inputDAC": [230,2],
                     "DACtime": [7,1],
                     "mask": [false,1],
-                    "gain_hg": [10,2],
+                    "gain_hg": [50,2],
                     "gain_lg": [10,2]
                 },
                 "ch_2": {
-                    "inputDAC": [50,2],
+                    "inputDAC": [230,2],
                     "DACtime": [7,1],
                     "mask": [false,1],
-                    "gain_hg": [10,2],
+                    "gain_hg": [50,2],
                     "gain_lg": [10,2]
                 },
                 "ch_3": {
-                    "inputDAC": [50,2],
+                    "inputDAC": [230,2],
                     "DACtime": [7,1],
                     "mask": [false,1],
-                    "gain_hg": [10,2],
+                    "gain_hg": [50,2],
                     "gain_lg": [10,2]
                 },
                 "ch_4": {
-                    "inputDAC": [50,2],
+                    "inputDAC": [230,2],
                     "DACtime": [7,1],
                     "mask": [false,1],
-                    "gain_hg": [10,2],
+                    "gain_hg": [50,2],
                     "gain_lg": [10,2]
                 },
                 "ch_5": {
-                    "inputDAC": [50,2],
+                    "inputDAC": [230,2],
                     "DACtime": [7,1],
                     "mask": [false,1],
-                    "gain_hg": [10,2],
+                    "gain_hg": [50,2],
                     "gain_lg": [10,2]
                 },
                 "ch_6": {
-                    "inputDAC": [50,2],
+                    "inputDAC": [230,2],
                     "DACtime": [7,1],
                     "mask": [false,1],
-                    "gain_hg": [10,2],
+                    "gain_hg": [50,2],
                     "gain_lg": [10,2]
                 },
                 "ch_7": {
-                    "inputDAC": [50,2],
+                    "inputDAC": [230,2],
                     "DACtime": [7,1],
                     "mask": [false,1],
-                    "gain_hg": [10,2],
+                    "gain_hg": [50,2],
                     "gain_lg": [10,2]
                 },
                 "ch_8": {
-                    "inputDAC": [50,2],
+                    "inputDAC": [230,2],
                     "DACtime": [7,1],
                     "mask": [false,1],
-                    "gain_hg": [10,2],
+                    "gain_hg": [50,2],
                     "gain_lg": [10,2]
                 },
                 "ch_9": {
-                    "inputDAC": [50,2],
+                    "inputDAC": [230,2],
                     "DACtime": [7,1],
                     "mask": [false,1],
-                    "gain_hg": [10,2],
+                    "gain_hg": [50,2],
                     "gain_lg": [10,2]
                 },
                 "ch_10": {
-                    "inputDAC": [50,2],
+                    "inputDAC": [230,2],
                     "DACtime": [7,1],
                     "mask": [false,1],
-                    "gain_hg": [10,2],
+                    "gain_hg": [50,2],
                     "gain_lg": [10,2]
                 },
                 "ch_11": {
-                    "inputDAC": [50,2],
+                    "inputDAC": [230,2],
                     "DACtime": [7,1],
                     "mask": [false,1],
-                    "gain_hg": [10,2],
+                    "gain_hg": [50,2],
                     "gain_lg": [10,2]
                 },
                 "ch_12": {
-                    "inputDAC": [50,2],
+                    "inputDAC": [230,2],
                     "DACtime": [7,1],
                     "mask": [false,1],
-                    "gain_hg": [10,2],
+                    "gain_hg": [50,2],
                     "gain_lg": [10,2]
                 },
                 "ch_13": {
-                    "inputDAC": [50,2],
+                    "inputDAC": [230,2],
                     "DACtime": [7,1],
                     "mask": [false,1],
-                    "gain_hg": [10,2],
+                    "gain_hg": [50,2],
                     "gain_lg": [10,2]
                 },
                 "ch_14": {
-                    "inputDAC": [50,2],
+                    "inputDAC": [230,2],
                     "DACtime": [7,1],
                     "mask": [false,1],
-                    "gain_hg": [10,2],
+                    "gain_hg": [50,2],
                     "gain_lg": [10,2]
                 },
                 "ch_15": {
-                    "inputDAC": [50,2],
+                    "inputDAC": [230,2],
                     "DACtime": [7,1],
                     "mask": [false,1],
-                    "gain_hg": [10,2],
+                    "gain_hg": [50,2],
                     "gain_lg": [10,2]
                 },
                 "ch_16": {
-                    "inputDAC": [50,2],
+                    "inputDAC": [230,2],
                     "DACtime": [7,1],
                     "mask": [false,1],
-                    "gain_hg": [10,2],
+                    "gain_hg": [50,2],
                     "gain_lg": [10,2]
                 },
                 "ch_17": {
-                    "inputDAC": [50,2],
+                    "inputDAC": [230,2],
                     "DACtime": [7,1],
                     "mask": [false,1],
-                    "gain_hg": [10,2],
+                    "gain_hg": [50,2],
                     "gain_lg": [10,2]
                 },
                 "ch_18": {
-                    "inputDAC": [50,2],
+                    "inputDAC": [230,2],
                     "DACtime": [7,1],
                     "mask": [false,1],
-                    "gain_hg": [10,2],
+                    "gain_hg": [50,2],
                     "gain_lg": [10,2]
                 },
                 "ch_19": {
-                    "inputDAC": [50,2],
+                    "inputDAC": [230,2],
                     "DACtime": [7,1],
                     "mask": [false,1],
-                    "gain_hg": [10,2],
+                    "gain_hg": [50,2],
                     "gain_lg": [10,2]
                 },
                 "ch_20": {
-                    "inputDAC": [50,2],
+                    "inputDAC": [230,2],
                     "DACtime": [7,1],
                     "mask": [false,1],
-                    "gain_hg": [10,2],
+                    "gain_hg": [50,2],
                     "gain_lg": [10,2]
                 },
                 "ch_21": {
-                    "inputDAC": [50,2],
+                    "inputDAC": [230,2],
                     "DACtime": [7,1],
                     "mask": [false,1],
-                    "gain_hg": [10,2],
+                    "gain_hg": [50,2],
                     "gain_lg": [10,2]
                 },
                 "ch_22": {
-                    "inputDAC": [50,2],
+                    "inputDAC": [230,2],
                     "DACtime": [7,1],
                     "mask": [false,1],
-                    "gain_hg": [10,2],
+                    "gain_hg": [50,2],
                     "gain_lg": [10,2]
                 },
                 "ch_23": {
-                    "inputDAC": [50,2],
+                    "inputDAC": [230,2],
                     "DACtime": [7,1],
                     "mask": [false,1],
-                    "gain_hg": [10,2],
+                    "gain_hg": [50,2],
                     "gain_lg": [10,2]
                 },
                 "ch_24": {
-                    "inputDAC": [50,2],
+                    "inputDAC": [230,2],
                     "DACtime": [7,1],
                     "mask": [false,1],
-                    "gain_hg": [10,2],
+                    "gain_hg": [50,2],
                     "gain_lg": [10,2]
                 },
                 "ch_25": {
-                    "inputDAC": [50,2],
+                    "inputDAC": [230,2],
                     "DACtime": [7,1],
                     "mask": [false,1],
-                    "gain_hg": [10,2],
+                    "gain_hg": [50,2],
                     "gain_lg": [10,2]
                 },
                 "ch_26": {
-                    "inputDAC": [50,2],
+                    "inputDAC": [230,2],
                     "DACtime": [7,1],
                     "mask": [false,1],
-                    "gain_hg": [10,2],
+                    "gain_hg": [50,2],
                     "gain_lg": [10,2]
                 },
                 "ch_27": {
-                    "inputDAC": [50,2],
+                    "inputDAC": [230,2],
                     "DACtime": [7,1],
                     "mask": [false,1],
-                    "gain_hg": [10,2],
+                    "gain_hg": [50,2],
                     "gain_lg": [10,2]
                 },
                 "ch_28": {
-                    "inputDAC": [50,2],
+                    "inputDAC": [230,2],
                     "DACtime": [7,1],
                     "mask": [false,1],
-                    "gain_hg": [10,2],
+                    "gain_hg": [50,2],
                     "gain_lg": [10,2]
                 },
                 "ch_29": {
-                    "inputDAC": [50,2],
+                    "inputDAC": [230,2],
                     "DACtime": [7,1],
                     "mask": [false,1],
-                    "gain_hg": [10,2],
+                    "gain_hg": [50,2],
                     "gain_lg": [10,2]
                 },
                 "ch_30": {
-                    "inputDAC": [50,2],
+                    "inputDAC": [230,2],
                     "DACtime": [7,1],
                     "mask": [false,1],
-                    "gain_hg": [10,2],
+                    "gain_hg": [50,2],
                     "gain_lg": [10,2]
                 },
                 "ch_31": {
-                    "inputDAC": [50,2],
+                    "inputDAC": [230,2],
                     "DACtime": [7,1],
                     "mask": [false,1],
-                    "gain_hg": [10,2],
+                    "gain_hg": [50,2],
                     "gain_lg": [10,2]
                 }
             },
@@ -268,233 +268,233 @@
                    "fastsh_source": ["h", 1],
                     "HGshtime": [2,1],
                     "LGshtime": [2,1],
-                    "input_DACref": [0,1],
-                    "timethrs": [320,2],
+                    "input_DACref": [230,1],
+                    "timethrs": [300,2],
                     "chargeth": [450,2]
                     
                 },
                 "ch_0": {
-                    "inputDAC": [50,2],
+                    "inputDAC": [230,2],
                     "DACtime": [7,1],
                     "mask": [false,1],
-                    "gain_hg": [10,2],
+                    "gain_hg": [50,2],
                     "gain_lg": [10,2]
                 },
                 "ch_1": {
-                    "inputDAC": [50,2],
+                    "inputDAC": [230,2],
                     "DACtime": [7,1],
                     "mask": [false,1],
-                    "gain_hg": [10,2],
+                    "gain_hg": [50,2],
                     "gain_lg": [10,2]
                 },
                 "ch_2": {
-                    "inputDAC": [50,2],
+                    "inputDAC": [230,2],
                     "DACtime": [7,1],
                     "mask": [false,1],
-                    "gain_hg": [10,2],
+                    "gain_hg": [50,2],
                     "gain_lg": [10,2]
                 },
                 "ch_3": {
-                    "inputDAC": [50,2],
+                    "inputDAC": [230,2],
                     "DACtime": [7,1],
                     "mask": [false,1],
-                    "gain_hg": [10,2],
+                    "gain_hg": [50,2],
                     "gain_lg": [10,2]
                 },
                 "ch_4": {
-                    "inputDAC": [50,2],
+                    "inputDAC": [230,2],
                     "DACtime": [7,1],
                     "mask": [false,1],
-                    "gain_hg": [10,2],
+                    "gain_hg": [50,2],
                     "gain_lg": [10,2]
                 },
                 "ch_5": {
-                    "inputDAC": [50,2],
+                    "inputDAC": [230,2],
                     "DACtime": [7,1],
                     "mask": [false,1],
-                    "gain_hg": [10,2],
+                    "gain_hg": [50,2],
                     "gain_lg": [10,2]
                 },
                 "ch_6": {
-                    "inputDAC": [50,2],
+                    "inputDAC": [230,2],
                     "DACtime": [7,1],
                     "mask": [false,1],
-                    "gain_hg": [10,2],
+                    "gain_hg": [50,2],
                     "gain_lg": [10,2]
                 },
                 "ch_7": {
-                    "inputDAC": [50,2],
+                    "inputDAC": [230,2],
                     "DACtime": [7,1],
                     "mask": [false,1],
-                    "gain_hg": [10,2],
+                    "gain_hg": [50,2],
                     "gain_lg": [10,2]
                 },
                 "ch_8": {
-                    "inputDAC": [50,2],
+                    "inputDAC": [230,2],
                     "DACtime": [7,1],
                     "mask": [false,1],
-                    "gain_hg": [10,2],
+                    "gain_hg": [50,2],
                     "gain_lg": [10,2]
                 },
                 "ch_9": {
-                    "inputDAC": [50,2],
+                    "inputDAC": [230,2],
                     "DACtime": [7,1],
                     "mask": [false,1],
-                    "gain_hg": [10,2],
+                    "gain_hg": [50,2],
                     "gain_lg": [10,2]
                 },
                 "ch_10": {
-                    "inputDAC": [50,2],
+                    "inputDAC": [230,2],
                     "DACtime": [7,1],
                     "mask": [false,1],
-                    "gain_hg": [10,2],
+                    "gain_hg": [50,2],
                     "gain_lg": [10,2]
                 },
                 "ch_11": {
-                    "inputDAC": [50,2],
+                    "inputDAC": [230,2],
                     "DACtime": [7,1],
                     "mask": [false,1],
-                    "gain_hg": [10,2],
+                    "gain_hg": [50,2],
                     "gain_lg": [10,2]
                 },
                 "ch_12": {
-                    "inputDAC": [50,2],
+                    "inputDAC": [230,2],
                     "DACtime": [7,1],
                     "mask": [false,1],
-                    "gain_hg": [10,2],
+                    "gain_hg": [50,2],
                     "gain_lg": [10,2]
                 },
                 "ch_13": {
-                    "inputDAC": [50,2],
+                    "inputDAC": [230,2],
                     "DACtime": [7,1],
                     "mask": [false,1],
-                    "gain_hg": [10,2],
+                    "gain_hg": [50,2],
                     "gain_lg": [10,2]
                 },
                 "ch_14": {
-                    "inputDAC": [50,2],
+                    "inputDAC": [230,2],
                     "DACtime": [7,1],
                     "mask": [false,1],
-                    "gain_hg": [10,2],
+                    "gain_hg": [50,2],
                     "gain_lg": [10,2]
                 },
                 "ch_15": {
-                    "inputDAC": [50,2],
+                    "inputDAC": [230,2],
                     "DACtime": [7,1],
                     "mask": [false,1],
-                    "gain_hg": [10,2],
+                    "gain_hg": [50,2],
                     "gain_lg": [10,2]
                 },
                 "ch_16": {
-                    "inputDAC": [50,2],
+                    "inputDAC": [230,2],
                     "DACtime": [7,1],
                     "mask": [false,1],
-                    "gain_hg": [10,2],
+                    "gain_hg": [50,2],
                     "gain_lg": [10,2]
                 },
                 "ch_17": {
-                    "inputDAC": [50,2],
+                    "inputDAC": [230,2],
                     "DACtime": [7,1],
                     "mask": [false,1],
-                    "gain_hg": [10,2],
+                    "gain_hg": [50,2],
                     "gain_lg": [10,2]
                 },
                 "ch_18": {
-                    "inputDAC": [50,2],
+                    "inputDAC": [230,2],
                     "DACtime": [7,1],
                     "mask": [false,1],
-                    "gain_hg": [10,2],
+                    "gain_hg": [50,2],
                     "gain_lg": [10,2]
                 },
                 "ch_19": {
-                    "inputDAC": [50,2],
+                    "inputDAC": [230,2],
                     "DACtime": [7,1],
                     "mask": [false,1],
-                    "gain_hg": [10,2],
+                    "gain_hg": [50,2],
                     "gain_lg": [10,2]
                 },
                 "ch_20": {
-                    "inputDAC": [50,2],
+                    "inputDAC": [230,2],
                     "DACtime": [7,1],
                     "mask": [false,1],
-                    "gain_hg": [10,2],
+                    "gain_hg": [50,2],
                     "gain_lg": [10,2]
                 },
                 "ch_21": {
-                    "inputDAC": [50,2],
+                    "inputDAC": [230,2],
                     "DACtime": [7,1],
                     "mask": [false,1],
-                    "gain_hg": [10,2],
+                    "gain_hg": [50,2],
                     "gain_lg": [10,2]
                 },
                 "ch_22": {
-                    "inputDAC": [50,2],
+                    "inputDAC": [230,2],
                     "DACtime": [7,1],
                     "mask": [false,1],
-                    "gain_hg": [10,2],
+                    "gain_hg": [50,2],
                     "gain_lg": [10,2]
                 },
                 "ch_23": {
-                    "inputDAC": [50,2],
+                    "inputDAC": [230,2],
                     "DACtime": [7,1],
                     "mask": [false,1],
-                    "gain_hg": [10,2],
+                    "gain_hg": [50,2],
                     "gain_lg": [10,2]
                 },
                 "ch_24": {
-                    "inputDAC": [50,2],
+                    "inputDAC": [230,2],
                     "DACtime": [7,1],
                     "mask": [false,1],
-                    "gain_hg": [10,2],
+                    "gain_hg": [50,2],
                     "gain_lg": [10,2]
                 },
                 "ch_25": {
-                    "inputDAC": [50,2],
+                    "inputDAC": [230,2],
                     "DACtime": [7,1],
                     "mask": [false,1],
-                    "gain_hg": [10,2],
+                    "gain_hg": [50,2],
                     "gain_lg": [10,2]
                 },
                 "ch_26": {
-                    "inputDAC": [50,2],
+                    "inputDAC": [230,2],
                     "DACtime": [7,1],
                     "mask": [false,1],
-                    "gain_hg": [10,2],
+                    "gain_hg": [50,2],
                     "gain_lg": [10,2]
                 },
                 "ch_27": {
-                    "inputDAC": [50,2],
+                    "inputDAC": [230,2],
                     "DACtime": [7,1],
                     "mask": [false,1],
-                    "gain_hg": [10,2],
+                    "gain_hg": [50,2],
                     "gain_lg": [10,2]
                 },
                 "ch_28": {
-                    "inputDAC": [50,2],
+                    "inputDAC": [230,2],
                     "DACtime": [7,1],
                     "mask": [false,1],
-                    "gain_hg": [10,2],
+                    "gain_hg": [50,2],
                     "gain_lg": [10,2]
                 },
                 "ch_29": {
-                    "inputDAC": [50,2],
+                    "inputDAC": [230,2],
                     "DACtime": [7,1],
                     "mask": [false,1],
-                    "gain_hg": [10,2],
+                    "gain_hg": [50,2],
                     "gain_lg": [10,2]
                 },
                 "ch_30": {
-                    "inputDAC": [50,2],
+                    "inputDAC": [230,2],
                     "DACtime": [7,1],
                     "mask": [false,1],
-                    "gain_hg": [10,2],
+                    "gain_hg": [50,2],
                     "gain_lg": [10,2]
                 },
                 "ch_31": {
-                    "inputDAC": [50,2],
+                    "inputDAC": [230,2],
                     "DACtime": [7,1],
                     "mask": [false,1],
-                    "gain_hg": [10,2],
+                    "gain_hg": [50,2],
                     "gain_lg": [10,2]
                 }
             },
@@ -503,233 +503,233 @@
                    "fastsh_source": ["h", 1],
                     "HGshtime": [2,1],
                     "LGshtime": [2,1],
-                    "input_DACref": [0,1],
-                    "timethrs": [320,2],
+                    "input_DACref": [230,1],
+                    "timethrs": [300,2],
                     "chargeth": [450,2]
                     
                 },
                 "ch_0": {
-                    "inputDAC": [50,2],
+                    "inputDAC": [230,2],
                     "DACtime": [7,1],
                     "mask": [false,1],
-                    "gain_hg": [10,2],
+                    "gain_hg": [50,2],
                     "gain_lg": [10,2]
                 },
                 "ch_1": {
-                    "inputDAC": [50,2],
+                    "inputDAC": [230,2],
                     "DACtime": [7,1],
                     "mask": [false,1],
-                    "gain_hg": [10,2],
+                    "gain_hg": [50,2],
                     "gain_lg": [10,2]
                 },
                 "ch_2": {
-                    "inputDAC": [50,2],
+                    "inputDAC": [230,2],
                     "DACtime": [7,1],
                     "mask": [false,1],
-                    "gain_hg": [10,2],
+                    "gain_hg": [50,2],
                     "gain_lg": [10,2]
                 },
                 "ch_3": {
-                    "inputDAC": [50,2],
+                    "inputDAC": [230,2],
                     "DACtime": [7,1],
                     "mask": [false,1],
-                    "gain_hg": [10,2],
+                    "gain_hg": [50,2],
                     "gain_lg": [10,2]
                 },
                 "ch_4": {
-                    "inputDAC": [50,2],
+                    "inputDAC": [230,2],
                     "DACtime": [7,1],
                     "mask": [false,1],
-                    "gain_hg": [10,2],
+                    "gain_hg": [50,2],
                     "gain_lg": [10,2]
                 },
                 "ch_5": {
-                    "inputDAC": [50,2],
+                    "inputDAC": [230,2],
                     "DACtime": [7,1],
                     "mask": [false,1],
-                    "gain_hg": [10,2],
+                    "gain_hg": [50,2],
                     "gain_lg": [10,2]
                 },
                 "ch_6": {
-                    "inputDAC": [50,2],
+                    "inputDAC": [230,2],
                     "DACtime": [7,1],
                     "mask": [false,1],
-                    "gain_hg": [10,2],
+                    "gain_hg": [50,2],
                     "gain_lg": [10,2]
                 },
                 "ch_7": {
-                    "inputDAC": [50,2],
+                    "inputDAC": [230,2],
                     "DACtime": [7,1],
                     "mask": [false,1],
-                    "gain_hg": [10,2],
+                    "gain_hg": [50,2],
                     "gain_lg": [10,2]
                 },
                 "ch_8": {
-                    "inputDAC": [50,2],
+                    "inputDAC": [230,2],
                     "DACtime": [7,1],
                     "mask": [false,1],
-                    "gain_hg": [10,2],
+                    "gain_hg": [50,2],
                     "gain_lg": [10,2]
                 },
                 "ch_9": {
-                    "inputDAC": [50,2],
+                    "inputDAC": [230,2],
                     "DACtime": [7,1],
                     "mask": [false,1],
-                    "gain_hg": [10,2],
+                    "gain_hg": [50,2],
                     "gain_lg": [10,2]
                 },
                 "ch_10": {
-                    "inputDAC": [50,2],
+                    "inputDAC": [230,2],
                     "DACtime": [7,1],
                     "mask": [false,1],
-                    "gain_hg": [10,2],
+                    "gain_hg": [50,2],
                     "gain_lg": [10,2]
                 },
                 "ch_11": {
-                    "inputDAC": [50,2],
+                    "inputDAC": [230,2],
                     "DACtime": [7,1],
                     "mask": [false,1],
-                    "gain_hg": [10,2],
+                    "gain_hg": [50,2],
                     "gain_lg": [10,2]
                 },
                 "ch_12": {
-                    "inputDAC": [50,2],
+                    "inputDAC": [230,2],
                     "DACtime": [7,1],
                     "mask": [false,1],
-                    "gain_hg": [10,2],
+                    "gain_hg": [50,2],
                     "gain_lg": [10,2]
                 },
                 "ch_13": {
-                    "inputDAC": [50,2],
+                    "inputDAC": [230,2],
                     "DACtime": [7,1],
                     "mask": [false,1],
-                    "gain_hg": [10,2],
+                    "gain_hg": [50,2],
                     "gain_lg": [10,2]
                 },
                 "ch_14": {
-                    "inputDAC": [50,2],
+                    "inputDAC": [230,2],
                     "DACtime": [7,1],
                     "mask": [false,1],
-                    "gain_hg": [10,2],
+                    "gain_hg": [50,2],
                     "gain_lg": [10,2]
                 },
                 "ch_15": {
-                    "inputDAC": [50,2],
+                    "inputDAC": [230,2],
                     "DACtime": [7,1],
                     "mask": [false,1],
-                    "gain_hg": [10,2],
+                    "gain_hg": [50,2],
                     "gain_lg": [10,2]
                 },
                 "ch_16": {
-                    "inputDAC": [50,2],
+                    "inputDAC": [230,2],
                     "DACtime": [7,1],
                     "mask": [false,1],
-                    "gain_hg": [10,2],
+                    "gain_hg": [50,2],
                     "gain_lg": [10,2]
                 },
                 "ch_17": {
-                    "inputDAC": [50,2],
+                    "inputDAC": [230,2],
                     "DACtime": [7,1],
                     "mask": [false,1],
-                    "gain_hg": [10,2],
+                    "gain_hg": [50,2],
                     "gain_lg": [10,2]
                 },
                 "ch_18": {
-                    "inputDAC": [50,2],
+                    "inputDAC": [230,2],
                     "DACtime": [7,1],
                     "mask": [false,1],
-                    "gain_hg": [10,2],
+                    "gain_hg": [50,2],
                     "gain_lg": [10,2]
                 },
                 "ch_19": {
-                    "inputDAC": [50,2],
+                    "inputDAC": [230,2],
                     "DACtime": [7,1],
                     "mask": [false,1],
-                    "gain_hg": [10,2],
+                    "gain_hg": [50,2],
                     "gain_lg": [10,2]
                 },
                 "ch_20": {
-                    "inputDAC": [50,2],
+                    "inputDAC": [230,2],
                     "DACtime": [7,1],
                     "mask": [false,1],
-                    "gain_hg": [10,2],
+                    "gain_hg": [50,2],
                     "gain_lg": [10,2]
                 },
                 "ch_21": {
-                    "inputDAC": [50,2],
+                    "inputDAC": [230,2],
                     "DACtime": [7,1],
                     "mask": [false,1],
-                    "gain_hg": [10,2],
+                    "gain_hg": [50,2],
                     "gain_lg": [10,2]
                 },
                 "ch_22": {
-                    "inputDAC": [50,2],
+                    "inputDAC": [230,2],
                     "DACtime": [7,1],
                     "mask": [false,1],
-                    "gain_hg": [10,2],
+                    "gain_hg": [50,2],
                     "gain_lg": [10,2]
                 },
                 "ch_23": {
-                    "inputDAC": [50,2],
+                    "inputDAC": [230,2],
                     "DACtime": [7,1],
                     "mask": [false,1],
-                    "gain_hg": [10,2],
+                    "gain_hg": [50,2],
                     "gain_lg": [10,2]
                 },
                 "ch_24": {
-                    "inputDAC": [50,2],
+                    "inputDAC": [230,2],
                     "DACtime": [7,1],
                     "mask": [false,1],
-                    "gain_hg": [10,2],
+                    "gain_hg": [50,2],
                     "gain_lg": [10,2]
                 },
                 "ch_25": {
-                    "inputDAC": [50,2],
+                    "inputDAC": [230,2],
                     "DACtime": [7,1],
                     "mask": [false,1],
-                    "gain_hg": [10,2],
+                    "gain_hg": [50,2],
                     "gain_lg": [10,2]
                 },
                 "ch_26": {
-                    "inputDAC": [50,2],
+                    "inputDAC": [230,2],
                     "DACtime": [7,1],
                     "mask": [false,1],
-                    "gain_hg": [10,2],
+                    "gain_hg": [50,2],
                     "gain_lg": [10,2]
                 },
                 "ch_27": {
-                    "inputDAC": [50,2],
+                    "inputDAC": [230,2],
                     "DACtime": [7,1],
                     "mask": [false,1],
-                    "gain_hg": [10,2],
+                    "gain_hg": [50,2],
                     "gain_lg": [10,2]
                 },
                 "ch_28": {
-                    "inputDAC": [50,2],
+                    "inputDAC": [230,2],
                     "DACtime": [7,1],
                     "mask": [false,1],
-                    "gain_hg": [10,2],
+                    "gain_hg": [50,2],
                     "gain_lg": [10,2]
                 },
                 "ch_29": {
-                    "inputDAC": [50,2],
+                    "inputDAC": [230,2],
                     "DACtime": [7,1],
                     "mask": [false,1],
-                    "gain_hg": [10,2],
+                    "gain_hg": [50,2],
                     "gain_lg": [10,2]
                 },
                 "ch_30": {
-                    "inputDAC": [50,2],
+                    "inputDAC": [230,2],
                     "DACtime": [7,1],
                     "mask": [false,1],
-                    "gain_hg": [10,2],
+                    "gain_hg": [50,2],
                     "gain_lg": [10,2]
                 },
                 "ch_31": {
-                    "inputDAC": [50,2],
+                    "inputDAC": [230,2],
                     "DACtime": [7,1],
                     "mask": [false,1],
-                    "gain_hg": [10,2],
+                    "gain_hg": [50,2],
                     "gain_lg": [10,2]
                 }
             },
@@ -738,233 +738,233 @@
                    "fastsh_source": ["h", 1],
                     "HGshtime": [2,1],
                     "LGshtime": [2,1],
-                    "input_DACref": [0,1],
-                    "timethrs": [320,2],
+                    "input_DACref": [230,1],
+                    "timethrs": [300,2],
                     "chargeth": [450,2]
                     
                 },
                 "ch_0": {
-                    "inputDAC": [50,2],
+                    "inputDAC": [230,2],
                     "DACtime": [7,1],
                     "mask": [false,1],
-                    "gain_hg": [10,2],
+                    "gain_hg": [50,2],
                     "gain_lg": [10,2]
                 },
                 "ch_1": {
-                    "inputDAC": [50,2],
+                    "inputDAC": [230,2],
                     "DACtime": [7,1],
                     "mask": [false,1],
-                    "gain_hg": [10,2],
+                    "gain_hg": [50,2],
                     "gain_lg": [10,2]
                 },
                 "ch_2": {
-                    "inputDAC": [50,2],
+                    "inputDAC": [230,2],
                     "DACtime": [7,1],
                     "mask": [false,1],
-                    "gain_hg": [10,2],
+                    "gain_hg": [50,2],
                     "gain_lg": [10,2]
                 },
                 "ch_3": {
-                    "inputDAC": [50,2],
+                    "inputDAC": [230,2],
                     "DACtime": [7,1],
                     "mask": [false,1],
-                    "gain_hg": [10,2],
+                    "gain_hg": [50,2],
                     "gain_lg": [10,2]
                 },
                 "ch_4": {
-                    "inputDAC": [50,2],
+                    "inputDAC": [230,2],
                     "DACtime": [7,1],
                     "mask": [false,1],
-                    "gain_hg": [10,2],
+                    "gain_hg": [50,2],
                     "gain_lg": [10,2]
                 },
                 "ch_5": {
-                    "inputDAC": [50,2],
+                    "inputDAC": [230,2],
                     "DACtime": [7,1],
                     "mask": [false,1],
-                    "gain_hg": [10,2],
+                    "gain_hg": [50,2],
                     "gain_lg": [10,2]
                 },
                 "ch_6": {
-                    "inputDAC": [50,2],
+                    "inputDAC": [230,2],
                     "DACtime": [7,1],
                     "mask": [false,1],
-                    "gain_hg": [10,2],
+                    "gain_hg": [50,2],
                     "gain_lg": [10,2]
                 },
                 "ch_7": {
-                    "inputDAC": [50,2],
+                    "inputDAC": [230,2],
                     "DACtime": [7,1],
                     "mask": [false,1],
-                    "gain_hg": [10,2],
+                    "gain_hg": [50,2],
                     "gain_lg": [10,2]
                 },
                 "ch_8": {
-                    "inputDAC": [50,2],
+                    "inputDAC": [230,2],
                     "DACtime": [7,1],
                     "mask": [false,1],
-                    "gain_hg": [10,2],
+                    "gain_hg": [50,2],
                     "gain_lg": [10,2]
                 },
                 "ch_9": {
-                    "inputDAC": [50,2],
+                    "inputDAC": [230,2],
                     "DACtime": [7,1],
                     "mask": [false,1],
-                    "gain_hg": [10,2],
+                    "gain_hg": [50,2],
                     "gain_lg": [10,2]
                 },
                 "ch_10": {
-                    "inputDAC": [50,2],
+                    "inputDAC": [230,2],
                     "DACtime": [7,1],
                     "mask": [false,1],
-                    "gain_hg": [10,2],
+                    "gain_hg": [50,2],
                     "gain_lg": [10,2]
                 },
                 "ch_11": {
-                    "inputDAC": [50,2],
+                    "inputDAC": [230,2],
                     "DACtime": [7,1],
                     "mask": [false,1],
-                    "gain_hg": [10,2],
+                    "gain_hg": [50,2],
                     "gain_lg": [10,2]
                 },
                 "ch_12": {
-                    "inputDAC": [50,2],
+                    "inputDAC": [230,2],
                     "DACtime": [7,1],
                     "mask": [false,1],
-                    "gain_hg": [10,2],
+                    "gain_hg": [50,2],
                     "gain_lg": [10,2]
                 },
                 "ch_13": {
-                    "inputDAC": [50,2],
+                    "inputDAC": [230,2],
                     "DACtime": [7,1],
                     "mask": [false,1],
-                    "gain_hg": [10,2],
+                    "gain_hg": [50,2],
                     "gain_lg": [10,2]
                 },
                 "ch_14": {
-                    "inputDAC": [50,2],
+                    "inputDAC": [230,2],
                     "DACtime": [7,1],
                     "mask": [false,1],
-                    "gain_hg": [10,2],
+                    "gain_hg": [50,2],
                     "gain_lg": [10,2]
                 },
                 "ch_15": {
-                    "inputDAC": [50,2],
+                    "inputDAC": [230,2],
                     "DACtime": [7,1],
                     "mask": [false,1],
-                    "gain_hg": [10,2],
+                    "gain_hg": [50,2],
                     "gain_lg": [10,2]
                 },
                 "ch_16": {
-                    "inputDAC": [50,2],
+                    "inputDAC": [230,2],
                     "DACtime": [7,1],
                     "mask": [false,1],
-                    "gain_hg": [10,2],
+                    "gain_hg": [50,2],
                     "gain_lg": [10,2]
                 },
                 "ch_17": {
-                    "inputDAC": [50,2],
+                    "inputDAC": [230,2],
                     "DACtime": [7,1],
                     "mask": [false,1],
-                    "gain_hg": [10,2],
+                    "gain_hg": [50,2],
                     "gain_lg": [10,2]
                 },
                 "ch_18": {
-                    "inputDAC": [50,2],
+                    "inputDAC": [230,2],
                     "DACtime": [7,1],
                     "mask": [false,1],
-                    "gain_hg": [10,2],
+                    "gain_hg": [50,2],
                     "gain_lg": [10,2]
                 },
                 "ch_19": {
-                    "inputDAC": [50,2],
+                    "inputDAC": [230,2],
                     "DACtime": [7,1],
                     "mask": [false,1],
-                    "gain_hg": [10,2],
+                    "gain_hg": [50,2],
                     "gain_lg": [10,2]
                 },
                 "ch_20": {
-                    "inputDAC": [50,2],
+                    "inputDAC": [230,2],
                     "DACtime": [7,1],
                     "mask": [false,1],
-                    "gain_hg": [10,2],
+                    "gain_hg": [50,2],
                     "gain_lg": [10,2]
                 },
                 "ch_21": {
-                    "inputDAC": [50,2],
+                    "inputDAC": [230,2],
                     "DACtime": [7,1],
                     "mask": [false,1],
-                    "gain_hg": [10,2],
+                    "gain_hg": [50,2],
                     "gain_lg": [10,2]
                 },
                 "ch_22": {
-                    "inputDAC": [50,2],
+                    "inputDAC": [230,2],
                     "DACtime": [7,1],
                     "mask": [false,1],
-                    "gain_hg": [10,2],
+                    "gain_hg": [50,2],
                     "gain_lg": [10,2]
                 },
                 "ch_23": {
-                    "inputDAC": [50,2],
+                    "inputDAC": [230,2],
                     "DACtime": [7,1],
                     "mask": [false,1],
-                    "gain_hg": [10,2],
+                    "gain_hg": [50,2],
                     "gain_lg": [10,2]
                 },
                 "ch_24": {
-                    "inputDAC": [50,2],
+                    "inputDAC": [230,2],
                     "DACtime": [7,1],
                     "mask": [false,1],
-                    "gain_hg": [10,2],
+                    "gain_hg": [50,2],
                     "gain_lg": [10,2]
                 },
                 "ch_25": {
-                    "inputDAC": [50,2],
+                    "inputDAC": [230,2],
                     "DACtime": [7,1],
                     "mask": [false,1],
-                    "gain_hg": [10,2],
+                    "gain_hg": [50,2],
                     "gain_lg": [10,2]
                 },
                 "ch_26": {
-                    "inputDAC": [50,2],
+                    "inputDAC": [230,2],
                     "DACtime": [7,1],
                     "mask": [false,1],
-                    "gain_hg": [10,2],
+                    "gain_hg": [50,2],
                     "gain_lg": [10,2]
                 },
                 "ch_27": {
-                    "inputDAC": [50,2],
+                    "inputDAC": [230,2],
                     "DACtime": [7,1],
                     "mask": [false,1],
-                    "gain_hg": [10,2],
+                    "gain_hg": [50,2],
                     "gain_lg": [10,2]
                 },
                 "ch_28": {
-                    "inputDAC": [50,2],
+                    "inputDAC": [230,2],
                     "DACtime": [7,1],
                     "mask": [false,1],
-                    "gain_hg": [10,2],
+                    "gain_hg": [50,2],
                     "gain_lg": [10,2]
                 },
                 "ch_29": {
-                    "inputDAC": [50,2],
+                    "inputDAC": [230,2],
                     "DACtime": [7,1],
                     "mask": [false,1],
-                    "gain_hg": [10,2],
+                    "gain_hg": [50,2],
                     "gain_lg": [10,2]
                 },
                 "ch_30": {
-                    "inputDAC": [50,2],
+                    "inputDAC": [230,2],
                     "DACtime": [7,1],
                     "mask": [false,1],
-                    "gain_hg": [10,2],
+                    "gain_hg": [50,2],
                     "gain_lg": [10,2]
                 },
                 "ch_31": {
-                    "inputDAC": [50,2],
+                    "inputDAC": [230,2],
                     "DACtime": [7,1],
                     "mask": [false,1],
-                    "gain_hg": [10,2],
+                    "gain_hg": [50,2],
                     "gain_lg": [10,2]
                 }
             },
@@ -973,233 +973,233 @@
                    "fastsh_source": ["h", 1],
                     "HGshtime": [2,1],
                     "LGshtime": [2,1],
-                    "input_DACref": [0,1],
-                    "timethrs": [320,2],
+                    "input_DACref": [230,1],
+                    "timethrs": [300,2],
                     "chargeth": [450,2]
                     
                 },
                 "ch_0": {
-                    "inputDAC": [50,2],
+                    "inputDAC": [230,2],
                     "DACtime": [7,1],
                     "mask": [false,1],
-                    "gain_hg": [10,2],
+                    "gain_hg": [50,2],
                     "gain_lg": [10,2]
                 },
                 "ch_1": {
-                    "inputDAC": [50,2],
+                    "inputDAC": [230,2],
                     "DACtime": [7,1],
                     "mask": [false,1],
-                    "gain_hg": [10,2],
+                    "gain_hg": [50,2],
                     "gain_lg": [10,2]
                 },
                 "ch_2": {
-                    "inputDAC": [50,2],
+                    "inputDAC": [230,2],
                     "DACtime": [7,1],
                     "mask": [false,1],
-                    "gain_hg": [10,2],
+                    "gain_hg": [50,2],
                     "gain_lg": [10,2]
                 },
                 "ch_3": {
-                    "inputDAC": [50,2],
+                    "inputDAC": [230,2],
                     "DACtime": [7,1],
                     "mask": [false,1],
-                    "gain_hg": [10,2],
+                    "gain_hg": [50,2],
                     "gain_lg": [10,2]
                 },
                 "ch_4": {
-                    "inputDAC": [50,2],
+                    "inputDAC": [230,2],
                     "DACtime": [7,1],
                     "mask": [false,1],
-                    "gain_hg": [10,2],
+                    "gain_hg": [50,2],
                     "gain_lg": [10,2]
                 },
                 "ch_5": {
-                    "inputDAC": [50,2],
+                    "inputDAC": [230,2],
                     "DACtime": [7,1],
                     "mask": [false,1],
-                    "gain_hg": [10,2],
+                    "gain_hg": [50,2],
                     "gain_lg": [10,2]
                 },
                 "ch_6": {
-                    "inputDAC": [50,2],
+                    "inputDAC": [230,2],
                     "DACtime": [7,1],
                     "mask": [false,1],
-                    "gain_hg": [10,2],
+                    "gain_hg": [50,2],
                     "gain_lg": [10,2]
                 },
                 "ch_7": {
-                    "inputDAC": [50,2],
+                    "inputDAC": [230,2],
                     "DACtime": [7,1],
                     "mask": [false,1],
-                    "gain_hg": [10,2],
+                    "gain_hg": [50,2],
                     "gain_lg": [10,2]
                 },
                 "ch_8": {
-                    "inputDAC": [50,2],
+                    "inputDAC": [230,2],
                     "DACtime": [7,1],
                     "mask": [false,1],
-                    "gain_hg": [10,2],
+                    "gain_hg": [50,2],
                     "gain_lg": [10,2]
                 },
                 "ch_9": {
-                    "inputDAC": [50,2],
+                    "inputDAC": [230,2],
                     "DACtime": [7,1],
                     "mask": [false,1],
-                    "gain_hg": [10,2],
+                    "gain_hg": [50,2],
                     "gain_lg": [10,2]
                 },
                 "ch_10": {
-                    "inputDAC": [50,2],
+                    "inputDAC": [230,2],
                     "DACtime": [7,1],
                     "mask": [false,1],
-                    "gain_hg": [10,2],
+                    "gain_hg": [50,2],
                     "gain_lg": [10,2]
                 },
                 "ch_11": {
-                    "inputDAC": [50,2],
+                    "inputDAC": [230,2],
                     "DACtime": [7,1],
                     "mask": [false,1],
-                    "gain_hg": [10,2],
+                    "gain_hg": [50,2],
                     "gain_lg": [10,2]
                 },
                 "ch_12": {
-                    "inputDAC": [50,2],
+                    "inputDAC": [230,2],
                     "DACtime": [7,1],
                     "mask": [false,1],
-                    "gain_hg": [10,2],
+                    "gain_hg": [50,2],
                     "gain_lg": [10,2]
                 },
                 "ch_13": {
-                    "inputDAC": [50,2],
+                    "inputDAC": [230,2],
                     "DACtime": [7,1],
                     "mask": [false,1],
-                    "gain_hg": [10,2],
+                    "gain_hg": [50,2],
                     "gain_lg": [10,2]
                 },
                 "ch_14": {
-                    "inputDAC": [50,2],
+                    "inputDAC": [230,2],
                     "DACtime": [7,1],
                     "mask": [false,1],
-                    "gain_hg": [10,2],
+                    "gain_hg": [50,2],
                     "gain_lg": [10,2]
                 },
                 "ch_15": {
-                    "inputDAC": [50,2],
+                    "inputDAC": [230,2],
                     "DACtime": [7,1],
                     "mask": [false,1],
-                    "gain_hg": [10,2],
+                    "gain_hg": [50,2],
                     "gain_lg": [10,2]
                 },
                 "ch_16": {
-                    "inputDAC": [50,2],
+                    "inputDAC": [230,2],
                     "DACtime": [7,1],
                     "mask": [false,1],
-                    "gain_hg": [10,2],
+                    "gain_hg": [50,2],
                     "gain_lg": [10,2]
                 },
                 "ch_17": {
-                    "inputDAC": [50,2],
+                    "inputDAC": [230,2],
                     "DACtime": [7,1],
                     "mask": [false,1],
-                    "gain_hg": [10,2],
+                    "gain_hg": [50,2],
                     "gain_lg": [10,2]
                 },
                 "ch_18": {
-                    "inputDAC": [50,2],
+                    "inputDAC": [230,2],
                     "DACtime": [7,1],
                     "mask": [false,1],
-                    "gain_hg": [10,2],
+                    "gain_hg": [50,2],
                     "gain_lg": [10,2]
                 },
                 "ch_19": {
-                    "inputDAC": [50,2],
+                    "inputDAC": [230,2],
                     "DACtime": [7,1],
                     "mask": [false,1],
-                    "gain_hg": [10,2],
+                    "gain_hg": [50,2],
                     "gain_lg": [10,2]
                 },
                 "ch_20": {
-                    "inputDAC": [50,2],
+                    "inputDAC": [230,2],
                     "DACtime": [7,1],
                     "mask": [false,1],
-                    "gain_hg": [10,2],
+                    "gain_hg": [50,2],
                     "gain_lg": [10,2]
                 },
                 "ch_21": {
-                    "inputDAC": [50,2],
+                    "inputDAC": [230,2],
                     "DACtime": [7,1],
                     "mask": [false,1],
-                    "gain_hg": [10,2],
+                    "gain_hg": [50,2],
                     "gain_lg": [10,2]
                 },
                 "ch_22": {
-                    "inputDAC": [50,2],
+                    "inputDAC": [230,2],
                     "DACtime": [7,1],
                     "mask": [false,1],
-                    "gain_hg": [10,2],
+                    "gain_hg": [50,2],
                     "gain_lg": [10,2]
                 },
                 "ch_23": {
-                    "inputDAC": [50,2],
+                    "inputDAC": [230,2],
                     "DACtime": [7,1],
                     "mask": [false,1],
-                    "gain_hg": [10,2],
+                    "gain_hg": [50,2],
                     "gain_lg": [10,2]
                 },
                 "ch_24": {
-                    "inputDAC": [50,2],
+                    "inputDAC": [230,2],
                     "DACtime": [7,1],
                     "mask": [false,1],
-                    "gain_hg": [10,2],
+                    "gain_hg": [50,2],
                     "gain_lg": [10,2]
                 },
                 "ch_25": {
-                    "inputDAC": [50,2],
+                    "inputDAC": [230,2],
                     "DACtime": [7,1],
                     "mask": [false,1],
-                    "gain_hg": [10,2],
+                    "gain_hg": [50,2],
                     "gain_lg": [10,2]
                 },
                 "ch_26": {
-                    "inputDAC": [50,2],
+                    "inputDAC": [230,2],
                     "DACtime": [7,1],
                     "mask": [false,1],
-                    "gain_hg": [10,2],
+                    "gain_hg": [50,2],
                     "gain_lg": [10,2]
                 },
                 "ch_27": {
-                    "inputDAC": [50,2],
+                    "inputDAC": [230,2],
                     "DACtime": [7,1],
                     "mask": [false,1],
-                    "gain_hg": [10,2],
+                    "gain_hg": [50,2],
                     "gain_lg": [10,2]
                 },
                 "ch_28": {
-                    "inputDAC": [50,2],
+                    "inputDAC": [230,2],
                     "DACtime": [7,1],
                     "mask": [false,1],
-                    "gain_hg": [10,2],
+                    "gain_hg": [50,2],
                     "gain_lg": [10,2]
                 },
                 "ch_29": {
-                    "inputDAC": [50,2],
+                    "inputDAC": [230,2],
                     "DACtime": [7,1],
                     "mask": [false,1],
-                    "gain_hg": [10,2],
+                    "gain_hg": [50,2],
                     "gain_lg": [10,2]
                 },
                 "ch_30": {
-                    "inputDAC": [50,2],
+                    "inputDAC": [230,2],
                     "DACtime": [7,1],
                     "mask": [false,1],
-                    "gain_hg": [10,2],
+                    "gain_hg": [50,2],
                     "gain_lg": [10,2]
                 },
                 "ch_31": {
-                    "inputDAC": [50,2],
+                    "inputDAC": [230,2],
                     "DACtime": [7,1],
                     "mask": [false,1],
-                    "gain_hg": [10,2],
+                    "gain_hg": [50,2],
                     "gain_lg": [10,2]
                 }
             },
@@ -1208,233 +1208,233 @@
                    "fastsh_source": ["h", 1],
                     "HGshtime": [2,1],
                     "LGshtime": [2,1],
-                    "input_DACref": [0,1],
-                    "timethrs": [320,2],
+                    "input_DACref": [230,1],
+                    "timethrs": [300,2],
                     "chargeth": [450,2]
                     
                 },
                 "ch_0": {
-                    "inputDAC": [50,2],
+                    "inputDAC": [230,2],
                     "DACtime": [7,1],
                     "mask": [false,1],
-                    "gain_hg": [10,2],
+                    "gain_hg": [50,2],
                     "gain_lg": [10,2]
                 },
                 "ch_1": {
-                    "inputDAC": [50,2],
+                    "inputDAC": [230,2],
                     "DACtime": [7,1],
                     "mask": [false,1],
-                    "gain_hg": [10,2],
+                    "gain_hg": [50,2],
                     "gain_lg": [10,2]
                 },
                 "ch_2": {
-                    "inputDAC": [50,2],
+                    "inputDAC": [230,2],
                     "DACtime": [7,1],
                     "mask": [false,1],
-                    "gain_hg": [10,2],
+                    "gain_hg": [50,2],
                     "gain_lg": [10,2]
                 },
                 "ch_3": {
-                    "inputDAC": [50,2],
+                    "inputDAC": [230,2],
                     "DACtime": [7,1],
                     "mask": [false,1],
-                    "gain_hg": [10,2],
+                    "gain_hg": [50,2],
                     "gain_lg": [10,2]
                 },
                 "ch_4": {
-                    "inputDAC": [50,2],
+                    "inputDAC": [230,2],
                     "DACtime": [7,1],
                     "mask": [false,1],
-                    "gain_hg": [10,2],
+                    "gain_hg": [50,2],
                     "gain_lg": [10,2]
                 },
                 "ch_5": {
-                    "inputDAC": [50,2],
+                    "inputDAC": [230,2],
                     "DACtime": [7,1],
                     "mask": [false,1],
-                    "gain_hg": [10,2],
+                    "gain_hg": [50,2],
                     "gain_lg": [10,2]
                 },
                 "ch_6": {
-                    "inputDAC": [50,2],
+                    "inputDAC": [230,2],
                     "DACtime": [7,1],
                     "mask": [false,1],
-                    "gain_hg": [10,2],
+                    "gain_hg": [50,2],
                     "gain_lg": [10,2]
                 },
                 "ch_7": {
-                    "inputDAC": [50,2],
+                    "inputDAC": [230,2],
                     "DACtime": [7,1],
                     "mask": [false,1],
-                    "gain_hg": [10,2],
+                    "gain_hg": [50,2],
                     "gain_lg": [10,2]
                 },
                 "ch_8": {
-                    "inputDAC": [50,2],
+                    "inputDAC": [230,2],
                     "DACtime": [7,1],
                     "mask": [false,1],
-                    "gain_hg": [10,2],
+                    "gain_hg": [50,2],
                     "gain_lg": [10,2]
                 },
                 "ch_9": {
-                    "inputDAC": [50,2],
+                    "inputDAC": [230,2],
                     "DACtime": [7,1],
                     "mask": [false,1],
-                    "gain_hg": [10,2],
+                    "gain_hg": [50,2],
                     "gain_lg": [10,2]
                 },
                 "ch_10": {
-                    "inputDAC": [50,2],
+                    "inputDAC": [230,2],
                     "DACtime": [7,1],
                     "mask": [false,1],
-                    "gain_hg": [10,2],
+                    "gain_hg": [50,2],
                     "gain_lg": [10,2]
                 },
                 "ch_11": {
-                    "inputDAC": [50,2],
+                    "inputDAC": [230,2],
                     "DACtime": [7,1],
                     "mask": [false,1],
-                    "gain_hg": [10,2],
+                    "gain_hg": [50,2],
                     "gain_lg": [10,2]
                 },
                 "ch_12": {
-                    "inputDAC": [50,2],
+                    "inputDAC": [230,2],
                     "DACtime": [7,1],
                     "mask": [false,1],
-                    "gain_hg": [10,2],
+                    "gain_hg": [50,2],
                     "gain_lg": [10,2]
                 },
                 "ch_13": {
-                    "inputDAC": [50,2],
+                    "inputDAC": [230,2],
                     "DACtime": [7,1],
                     "mask": [false,1],
-                    "gain_hg": [10,2],
+                    "gain_hg": [50,2],
                     "gain_lg": [10,2]
                 },
                 "ch_14": {
-                    "inputDAC": [50,2],
+                    "inputDAC": [230,2],
                     "DACtime": [7,1],
                     "mask": [false,1],
-                    "gain_hg": [10,2],
+                    "gain_hg": [50,2],
                     "gain_lg": [10,2]
                 },
                 "ch_15": {
-                    "inputDAC": [50,2],
+                    "inputDAC": [230,2],
                     "DACtime": [7,1],
                     "mask": [false,1],
-                    "gain_hg": [10,2],
+                    "gain_hg": [50,2],
                     "gain_lg": [10,2]
                 },
                 "ch_16": {
-                    "inputDAC": [50,2],
+                    "inputDAC": [230,2],
                     "DACtime": [7,1],
                     "mask": [false,1],
-                    "gain_hg": [10,2],
+                    "gain_hg": [50,2],
                     "gain_lg": [10,2]
                 },
                 "ch_17": {
-                    "inputDAC": [50,2],
+                    "inputDAC": [230,2],
                     "DACtime": [7,1],
                     "mask": [false,1],
-                    "gain_hg": [10,2],
+                    "gain_hg": [50,2],
                     "gain_lg": [10,2]
                 },
                 "ch_18": {
-                    "inputDAC": [50,2],
+                    "inputDAC": [230,2],
                     "DACtime": [7,1],
                     "mask": [false,1],
-                    "gain_hg": [10,2],
+                    "gain_hg": [50,2],
                     "gain_lg": [10,2]
                 },
                 "ch_19": {
-                    "inputDAC": [50,2],
+                    "inputDAC": [230,2],
                     "DACtime": [7,1],
                     "mask": [false,1],
-                    "gain_hg": [10,2],
+                    "gain_hg": [50,2],
                     "gain_lg": [10,2]
                 },
                 "ch_20": {
-                    "inputDAC": [50,2],
+                    "inputDAC": [230,2],
                     "DACtime": [7,1],
                     "mask": [false,1],
-                    "gain_hg": [10,2],
+                    "gain_hg": [50,2],
                     "gain_lg": [10,2]
                 },
                 "ch_21": {
-                    "inputDAC": [50,2],
+                    "inputDAC": [230,2],
                     "DACtime": [7,1],
                     "mask": [false,1],
-                    "gain_hg": [10,2],
+                    "gain_hg": [50,2],
                     "gain_lg": [10,2]
                 },
                 "ch_22": {
-                    "inputDAC": [50,2],
+                    "inputDAC": [230,2],
                     "DACtime": [7,1],
                     "mask": [false,1],
-                    "gain_hg": [10,2],
+                    "gain_hg": [50,2],
                     "gain_lg": [10,2]
                 },
                 "ch_23": {
-                    "inputDAC": [50,2],
+                    "inputDAC": [230,2],
                     "DACtime": [7,1],
                     "mask": [false,1],
-                    "gain_hg": [10,2],
+                    "gain_hg": [50,2],
                     "gain_lg": [10,2]
                 },
                 "ch_24": {
-                    "inputDAC": [50,2],
+                    "inputDAC": [230,2],
                     "DACtime": [7,1],
                     "mask": [false,1],
-                    "gain_hg": [10,2],
+                    "gain_hg": [50,2],
                     "gain_lg": [10,2]
                 },
                 "ch_25": {
-                    "inputDAC": [50,2],
+                    "inputDAC": [230,2],
                     "DACtime": [7,1],
                     "mask": [false,1],
-                    "gain_hg": [10,2],
+                    "gain_hg": [50,2],
                     "gain_lg": [10,2]
                 },
                 "ch_26": {
-                    "inputDAC": [50,2],
+                    "inputDAC": [230,2],
                     "DACtime": [7,1],
                     "mask": [false,1],
-                    "gain_hg": [10,2],
+                    "gain_hg": [50,2],
                     "gain_lg": [10,2]
                 },
                 "ch_27": {
-                    "inputDAC": [50,2],
+                    "inputDAC": [230,2],
                     "DACtime": [7,1],
                     "mask": [false,1],
-                    "gain_hg": [10,2],
+                    "gain_hg": [50,2],
                     "gain_lg": [10,2]
                 },
                 "ch_28": {
-                    "inputDAC": [50,2],
+                    "inputDAC": [230,2],
                     "DACtime": [7,1],
                     "mask": [false,1],
-                    "gain_hg": [10,2],
+                    "gain_hg": [50,2],
                     "gain_lg": [10,2]
                 },
                 "ch_29": {
-                    "inputDAC": [50,2],
+                    "inputDAC": [230,2],
                     "DACtime": [7,1],
                     "mask": [false,1],
-                    "gain_hg": [10,2],
+                    "gain_hg": [50,2],
                     "gain_lg": [10,2]
                 },
                 "ch_30": {
-                    "inputDAC": [50,2],
+                    "inputDAC": [230,2],
                     "DACtime": [7,1],
                     "mask": [false,1],
-                    "gain_hg": [10,2],
+                    "gain_hg": [50,2],
                     "gain_lg": [10,2]
                 },
                 "ch_31": {
-                    "inputDAC": [50,2],
+                    "inputDAC": [230,2],
                     "DACtime": [7,1],
                     "mask": [false,1],
-                    "gain_hg": [10,2],
+                    "gain_hg": [50,2],
                     "gain_lg": [10,2]
                 }
             }
@@ -1443,242 +1443,242 @@
             "general": {
                 "daq": ["2",1],
                 "daq_trg_en": [1,1],
-                "daq_trg_mode": [0,1],
-                "daq_trg_src": [2,1],
-                "daq_trg_period": [20000,4]
+                "daq_trg_mode": [2,1],
+                "daq_trg_src": [0,1],
+                "daq_trg_period": [250000,4]
             },
             "asic_1": {
                 "general": {
                    "fastsh_source": ["h", 1],
                     "HGshtime": [2,1],
                     "LGshtime": [2,1],
-                    "input_DACref": [0,1],
-                    "timethrs": [320,2],
+                    "input_DACref": [230,1],
+                    "timethrs": [300,2],
                     "chargeth": [450,2]
                     
                 },
                 "ch_0": {
-                    "inputDAC": [50,2],
+                    "inputDAC": [230,2],
                     "DACtime": [7,1],
                     "mask": [false,1],
-                    "gain_hg": [10,2],
+                    "gain_hg": [50,2],
                     "gain_lg": [10,2]
                 },
                 "ch_1": {
-                    "inputDAC": [50,2],
+                    "inputDAC": [230,2],
                     "DACtime": [7,1],
                     "mask": [false,1],
-                    "gain_hg": [10,2],
+                    "gain_hg": [50,2],
                     "gain_lg": [10,2]
                 },
                 "ch_2": {
-                    "inputDAC": [50,2],
+                    "inputDAC": [230,2],
                     "DACtime": [7,1],
                     "mask": [false,1],
-                    "gain_hg": [10,2],
+                    "gain_hg": [50,2],
                     "gain_lg": [10,2]
                 },
                 "ch_3": {
-                    "inputDAC": [50,2],
+                    "inputDAC": [230,2],
                     "DACtime": [7,1],
                     "mask": [false,1],
-                    "gain_hg": [10,2],
+                    "gain_hg": [50,2],
                     "gain_lg": [10,2]
                 },
                 "ch_4": {
-                    "inputDAC": [50,2],
+                    "inputDAC": [230,2],
                     "DACtime": [7,1],
                     "mask": [false,1],
-                    "gain_hg": [10,2],
+                    "gain_hg": [50,2],
                     "gain_lg": [10,2]
                 },
                 "ch_5": {
-                    "inputDAC": [50,2],
+                    "inputDAC": [230,2],
                     "DACtime": [7,1],
                     "mask": [false,1],
-                    "gain_hg": [10,2],
+                    "gain_hg": [50,2],
                     "gain_lg": [10,2]
                 },
                 "ch_6": {
-                    "inputDAC": [50,2],
+                    "inputDAC": [230,2],
                     "DACtime": [7,1],
                     "mask": [false,1],
-                    "gain_hg": [10,2],
+                    "gain_hg": [50,2],
                     "gain_lg": [10,2]
                 },
                 "ch_7": {
-                    "inputDAC": [50,2],
+                    "inputDAC": [230,2],
                     "DACtime": [7,1],
                     "mask": [false,1],
-                    "gain_hg": [10,2],
+                    "gain_hg": [50,2],
                     "gain_lg": [10,2]
                 },
                 "ch_8": {
-                    "inputDAC": [50,2],
+                    "inputDAC": [230,2],
                     "DACtime": [7,1],
                     "mask": [false,1],
-                    "gain_hg": [10,2],
+                    "gain_hg": [50,2],
                     "gain_lg": [10,2]
                 },
                 "ch_9": {
-                    "inputDAC": [50,2],
+                    "inputDAC": [230,2],
                     "DACtime": [7,1],
                     "mask": [false,1],
-                    "gain_hg": [10,2],
+                    "gain_hg": [50,2],
                     "gain_lg": [10,2]
                 },
                 "ch_10": {
-                    "inputDAC": [50,2],
+                    "inputDAC": [230,2],
                     "DACtime": [7,1],
                     "mask": [false,1],
-                    "gain_hg": [10,2],
+                    "gain_hg": [50,2],
                     "gain_lg": [10,2]
                 },
                 "ch_11": {
-                    "inputDAC": [50,2],
+                    "inputDAC": [230,2],
                     "DACtime": [7,1],
                     "mask": [false,1],
-                    "gain_hg": [10,2],
+                    "gain_hg": [50,2],
                     "gain_lg": [10,2]
                 },
                 "ch_12": {
-                    "inputDAC": [50,2],
+                    "inputDAC": [230,2],
                     "DACtime": [7,1],
                     "mask": [false,1],
-                    "gain_hg": [10,2],
+                    "gain_hg": [50,2],
                     "gain_lg": [10,2]
                 },
                 "ch_13": {
-                    "inputDAC": [50,2],
+                    "inputDAC": [230,2],
                     "DACtime": [7,1],
                     "mask": [false,1],
-                    "gain_hg": [10,2],
+                    "gain_hg": [50,2],
                     "gain_lg": [10,2]
                 },
                 "ch_14": {
-                    "inputDAC": [50,2],
+                    "inputDAC": [230,2],
                     "DACtime": [7,1],
                     "mask": [false,1],
-                    "gain_hg": [10,2],
+                    "gain_hg": [50,2],
                     "gain_lg": [10,2]
                 },
                 "ch_15": {
-                    "inputDAC": [50,2],
+                    "inputDAC": [230,2],
                     "DACtime": [7,1],
                     "mask": [false,1],
-                    "gain_hg": [10,2],
+                    "gain_hg": [50,2],
                     "gain_lg": [10,2]
                 },
                 "ch_16": {
-                    "inputDAC": [50,2],
+                    "inputDAC": [230,2],
                     "DACtime": [7,1],
                     "mask": [false,1],
-                    "gain_hg": [10,2],
+                    "gain_hg": [50,2],
                     "gain_lg": [10,2]
                 },
                 "ch_17": {
-                    "inputDAC": [50,2],
+                    "inputDAC": [230,2],
                     "DACtime": [7,1],
                     "mask": [false,1],
-                    "gain_hg": [10,2],
+                    "gain_hg": [50,2],
                     "gain_lg": [10,2]
                 },
                 "ch_18": {
-                    "inputDAC": [50,2],
+                    "inputDAC": [230,2],
                     "DACtime": [7,1],
                     "mask": [false,1],
-                    "gain_hg": [10,2],
+                    "gain_hg": [50,2],
                     "gain_lg": [10,2]
                 },
                 "ch_19": {
-                    "inputDAC": [50,2],
+                    "inputDAC": [230,2],
                     "DACtime": [7,1],
                     "mask": [false,1],
-                    "gain_hg": [10,2],
+                    "gain_hg": [50,2],
                     "gain_lg": [10,2]
                 },
                 "ch_20": {
-                    "inputDAC": [50,2],
+                    "inputDAC": [230,2],
                     "DACtime": [7,1],
                     "mask": [false,1],
-                    "gain_hg": [10,2],
+                    "gain_hg": [50,2],
                     "gain_lg": [10,2]
                 },
                 "ch_21": {
-                    "inputDAC": [50,2],
+                    "inputDAC": [230,2],
                     "DACtime": [7,1],
                     "mask": [false,1],
-                    "gain_hg": [10,2],
+                    "gain_hg": [50,2],
                     "gain_lg": [10,2]
                 },
                 "ch_22": {
-                    "inputDAC": [50,2],
+                    "inputDAC": [230,2],
                     "DACtime": [7,1],
                     "mask": [false,1],
-                    "gain_hg": [10,2],
+                    "gain_hg": [50,2],
                     "gain_lg": [10,2]
                 },
                 "ch_23": {
-                    "inputDAC": [50,2],
+                    "inputDAC": [230,2],
                     "DACtime": [7,1],
                     "mask": [false,1],
-                    "gain_hg": [10,2],
+                    "gain_hg": [50,2],
                     "gain_lg": [10,2]
                 },
                 "ch_24": {
-                    "inputDAC": [50,2],
+                    "inputDAC": [230,2],
                     "DACtime": [7,1],
                     "mask": [false,1],
-                    "gain_hg": [10,2],
+                    "gain_hg": [50,2],
                     "gain_lg": [10,2]
                 },
                 "ch_25": {
-                    "inputDAC": [50,2],
+                    "inputDAC": [230,2],
                     "DACtime": [7,1],
                     "mask": [false,1],
-                    "gain_hg": [10,2],
+                    "gain_hg": [50,2],
                     "gain_lg": [10,2]
                 },
                 "ch_26": {
-                    "inputDAC": [50,2],
+                    "inputDAC": [230,2],
                     "DACtime": [7,1],
                     "mask": [false,1],
-                    "gain_hg": [10,2],
+                    "gain_hg": [50,2],
                     "gain_lg": [10,2]
                 },
                 "ch_27": {
-                    "inputDAC": [50,2],
+                    "inputDAC": [230,2],
                     "DACtime": [7,1],
                     "mask": [false,1],
-                    "gain_hg": [10,2],
+                    "gain_hg": [50,2],
                     "gain_lg": [10,2]
                 },
                 "ch_28": {
-                    "inputDAC": [50,2],
+                    "inputDAC": [230,2],
                     "DACtime": [7,1],
                     "mask": [false,1],
-                    "gain_hg": [10,2],
+                    "gain_hg": [50,2],
                     "gain_lg": [10,2]
                 },
                 "ch_29": {
-                    "inputDAC": [50,2],
+                    "inputDAC": [230,2],
                     "DACtime": [7,1],
                     "mask": [false,1],
-                    "gain_hg": [10,2],
+                    "gain_hg": [50,2],
                     "gain_lg": [10,2]
                 },
                 "ch_30": {
-                    "inputDAC": [50,2],
+                    "inputDAC": [230,2],
                     "DACtime": [7,1],
                     "mask": [false,1],
-                    "gain_hg": [10,2],
+                    "gain_hg": [50,2],
                     "gain_lg": [10,2]
                 },
                 "ch_31": {
-                    "inputDAC": [50,2],
+                    "inputDAC": [230,2],
                     "DACtime": [7,1],
                     "mask": [false,1],
-                    "gain_hg": [10,2],
+                    "gain_hg": [50,2],
                     "gain_lg": [10,2]
                 }
             },
@@ -1687,233 +1687,233 @@
                    "fastsh_source": ["h", 1],
                     "HGshtime": [2,1],
                     "LGshtime": [2,1],
-                    "input_DACref": [0,1],
-                    "timethrs": [320,2],
+                    "input_DACref": [230,1],
+                    "timethrs": [300,2],
                     "chargeth": [450,2]
                     
                 },
                 "ch_0": {
-                    "inputDAC": [50,2],
+                    "inputDAC": [230,2],
                     "DACtime": [7,1],
                     "mask": [false,1],
-                    "gain_hg": [10,2],
+                    "gain_hg": [50,2],
                     "gain_lg": [10,2]
                 },
                 "ch_1": {
-                    "inputDAC": [50,2],
+                    "inputDAC": [230,2],
                     "DACtime": [7,1],
                     "mask": [false,1],
-                    "gain_hg": [10,2],
+                    "gain_hg": [50,2],
                     "gain_lg": [10,2]
                 },
                 "ch_2": {
-                    "inputDAC": [50,2],
+                    "inputDAC": [230,2],
                     "DACtime": [7,1],
                     "mask": [false,1],
-                    "gain_hg": [10,2],
+                    "gain_hg": [50,2],
                     "gain_lg": [10,2]
                 },
                 "ch_3": {
-                    "inputDAC": [50,2],
+                    "inputDAC": [230,2],
                     "DACtime": [7,1],
                     "mask": [false,1],
-                    "gain_hg": [10,2],
+                    "gain_hg": [50,2],
                     "gain_lg": [10,2]
                 },
                 "ch_4": {
-                    "inputDAC": [50,2],
+                    "inputDAC": [230,2],
                     "DACtime": [7,1],
                     "mask": [false,1],
-                    "gain_hg": [10,2],
+                    "gain_hg": [50,2],
                     "gain_lg": [10,2]
                 },
                 "ch_5": {
-                    "inputDAC": [50,2],
+                    "inputDAC": [230,2],
                     "DACtime": [7,1],
                     "mask": [false,1],
-                    "gain_hg": [10,2],
+                    "gain_hg": [50,2],
                     "gain_lg": [10,2]
                 },
                 "ch_6": {
-                    "inputDAC": [50,2],
+                    "inputDAC": [230,2],
                     "DACtime": [7,1],
                     "mask": [false,1],
-                    "gain_hg": [10,2],
+                    "gain_hg": [50,2],
                     "gain_lg": [10,2]
                 },
                 "ch_7": {
-                    "inputDAC": [50,2],
+                    "inputDAC": [230,2],
                     "DACtime": [7,1],
                     "mask": [false,1],
-                    "gain_hg": [10,2],
+                    "gain_hg": [50,2],
                     "gain_lg": [10,2]
                 },
                 "ch_8": {
-                    "inputDAC": [50,2],
+                    "inputDAC": [230,2],
                     "DACtime": [7,1],
                     "mask": [false,1],
-                    "gain_hg": [10,2],
+                    "gain_hg": [50,2],
                     "gain_lg": [10,2]
                 },
                 "ch_9": {
-                    "inputDAC": [50,2],
+                    "inputDAC": [230,2],
                     "DACtime": [7,1],
                     "mask": [false,1],
-                    "gain_hg": [10,2],
+                    "gain_hg": [50,2],
                     "gain_lg": [10,2]
                 },
                 "ch_10": {
-                    "inputDAC": [50,2],
+                    "inputDAC": [230,2],
                     "DACtime": [7,1],
                     "mask": [false,1],
-                    "gain_hg": [10,2],
+                    "gain_hg": [50,2],
                     "gain_lg": [10,2]
                 },
                 "ch_11": {
-                    "inputDAC": [50,2],
+                    "inputDAC": [230,2],
                     "DACtime": [7,1],
                     "mask": [false,1],
-                    "gain_hg": [10,2],
+                    "gain_hg": [50,2],
                     "gain_lg": [10,2]
                 },
                 "ch_12": {
-                    "inputDAC": [50,2],
+                    "inputDAC": [230,2],
                     "DACtime": [7,1],
                     "mask": [false,1],
-                    "gain_hg": [10,2],
+                    "gain_hg": [50,2],
                     "gain_lg": [10,2]
                 },
                 "ch_13": {
-                    "inputDAC": [50,2],
+                    "inputDAC": [230,2],
                     "DACtime": [7,1],
                     "mask": [false,1],
-                    "gain_hg": [10,2],
+                    "gain_hg": [50,2],
                     "gain_lg": [10,2]
                 },
                 "ch_14": {
-                    "inputDAC": [50,2],
+                    "inputDAC": [230,2],
                     "DACtime": [7,1],
                     "mask": [false,1],
-                    "gain_hg": [10,2],
+                    "gain_hg": [50,2],
                     "gain_lg": [10,2]
                 },
                 "ch_15": {
-                    "inputDAC": [50,2],
+                    "inputDAC": [230,2],
                     "DACtime": [7,1],
                     "mask": [false,1],
-                    "gain_hg": [10,2],
+                    "gain_hg": [50,2],
                     "gain_lg": [10,2]
                 },
                 "ch_16": {
-                    "inputDAC": [50,2],
+                    "inputDAC": [230,2],
                     "DACtime": [7,1],
                     "mask": [false,1],
-                    "gain_hg": [10,2],
+                    "gain_hg": [50,2],
                     "gain_lg": [10,2]
                 },
                 "ch_17": {
-                    "inputDAC": [50,2],
+                    "inputDAC": [230,2],
                     "DACtime": [7,1],
                     "mask": [false,1],
-                    "gain_hg": [10,2],
+                    "gain_hg": [50,2],
                     "gain_lg": [10,2]
                 },
                 "ch_18": {
-                    "inputDAC": [50,2],
+                    "inputDAC": [230,2],
                     "DACtime": [7,1],
                     "mask": [false,1],
-                    "gain_hg": [10,2],
+                    "gain_hg": [50,2],
                     "gain_lg": [10,2]
                 },
                 "ch_19": {
-                    "inputDAC": [50,2],
+                    "inputDAC": [230,2],
                     "DACtime": [7,1],
                     "mask": [false,1],
-                    "gain_hg": [10,2],
+                    "gain_hg": [50,2],
                     "gain_lg": [10,2]
                 },
                 "ch_20": {
-                    "inputDAC": [50,2],
+                    "inputDAC": [230,2],
                     "DACtime": [7,1],
                     "mask": [false,1],
-                    "gain_hg": [10,2],
+                    "gain_hg": [50,2],
                     "gain_lg": [10,2]
                 },
                 "ch_21": {
-                    "inputDAC": [50,2],
+                    "inputDAC": [230,2],
                     "DACtime": [7,1],
                     "mask": [false,1],
-                    "gain_hg": [10,2],
+                    "gain_hg": [50,2],
                     "gain_lg": [10,2]
                 },
                 "ch_22": {
-                    "inputDAC": [50,2],
+                    "inputDAC": [230,2],
                     "DACtime": [7,1],
                     "mask": [false,1],
-                    "gain_hg": [10,2],
+                    "gain_hg": [50,2],
                     "gain_lg": [10,2]
                 },
                 "ch_23": {
-                    "inputDAC": [50,2],
+                    "inputDAC": [230,2],
                     "DACtime": [7,1],
                     "mask": [false,1],
-                    "gain_hg": [10,2],
+                    "gain_hg": [50,2],
                     "gain_lg": [10,2]
                 },
                 "ch_24": {
-                    "inputDAC": [50,2],
+                    "inputDAC": [230,2],
                     "DACtime": [7,1],
                     "mask": [false,1],
-                    "gain_hg": [10,2],
+                    "gain_hg": [50,2],
                     "gain_lg": [10,2]
                 },
                 "ch_25": {
-                    "inputDAC": [50,2],
+                    "inputDAC": [230,2],
                     "DACtime": [7,1],
                     "mask": [false,1],
-                    "gain_hg": [10,2],
+                    "gain_hg": [50,2],
                     "gain_lg": [10,2]
                 },
                 "ch_26": {
-                    "inputDAC": [50,2],
+                    "inputDAC": [230,2],
                     "DACtime": [7,1],
                     "mask": [false,1],
-                    "gain_hg": [10,2],
+                    "gain_hg": [50,2],
                     "gain_lg": [10,2]
                 },
                 "ch_27": {
-                    "inputDAC": [50,2],
+                    "inputDAC": [230,2],
                     "DACtime": [7,1],
                     "mask": [false,1],
-                    "gain_hg": [10,2],
+                    "gain_hg": [50,2],
                     "gain_lg": [10,2]
                 },
                 "ch_28": {
-                    "inputDAC": [50,2],
+                    "inputDAC": [230,2],
                     "DACtime": [7,1],
                     "mask": [false,1],
-                    "gain_hg": [10,2],
+                    "gain_hg": [50,2],
                     "gain_lg": [10,2]
                 },
                 "ch_29": {
-                    "inputDAC": [50,2],
+                    "inputDAC": [230,2],
                     "DACtime": [7,1],
                     "mask": [false,1],
-                    "gain_hg": [10,2],
+                    "gain_hg": [50,2],
                     "gain_lg": [10,2]
                 },
                 "ch_30": {
-                    "inputDAC": [50,2],
+                    "inputDAC": [230,2],
                     "DACtime": [7,1],
                     "mask": [false,1],
-                    "gain_hg": [10,2],
+                    "gain_hg": [50,2],
                     "gain_lg": [10,2]
                 },
                 "ch_31": {
-                    "inputDAC": [50,2],
+                    "inputDAC": [230,2],
                     "DACtime": [7,1],
                     "mask": [false,1],
-                    "gain_hg": [10,2],
+                    "gain_hg": [50,2],
                     "gain_lg": [10,2]
                 }
             },
@@ -1922,233 +1922,233 @@
                    "fastsh_source": ["h", 1],
                     "HGshtime": [2,1],
                     "LGshtime": [2,1],
-                    "input_DACref": [0,1],
-                    "timethrs": [320,2],
+                    "input_DACref": [230,1],
+                    "timethrs": [300,2],
                     "chargeth": [450,2]
                     
                 },
                 "ch_0": {
-                    "inputDAC": [50,2],
+                    "inputDAC": [230,2],
                     "DACtime": [7,1],
                     "mask": [false,1],
-                    "gain_hg": [10,2],
+                    "gain_hg": [50,2],
                     "gain_lg": [10,2]
                 },
                 "ch_1": {
-                    "inputDAC": [50,2],
+                    "inputDAC": [230,2],
                     "DACtime": [7,1],
                     "mask": [false,1],
-                    "gain_hg": [10,2],
+                    "gain_hg": [50,2],
                     "gain_lg": [10,2]
                 },
                 "ch_2": {
-                    "inputDAC": [50,2],
+                    "inputDAC": [230,2],
                     "DACtime": [7,1],
                     "mask": [false,1],
-                    "gain_hg": [10,2],
+                    "gain_hg": [50,2],
                     "gain_lg": [10,2]
                 },
                 "ch_3": {
-                    "inputDAC": [50,2],
+                    "inputDAC": [230,2],
                     "DACtime": [7,1],
                     "mask": [false,1],
-                    "gain_hg": [10,2],
+                    "gain_hg": [50,2],
                     "gain_lg": [10,2]
                 },
                 "ch_4": {
-                    "inputDAC": [50,2],
+                    "inputDAC": [230,2],
                     "DACtime": [7,1],
                     "mask": [false,1],
-                    "gain_hg": [10,2],
+                    "gain_hg": [50,2],
                     "gain_lg": [10,2]
                 },
                 "ch_5": {
-                    "inputDAC": [50,2],
+                    "inputDAC": [230,2],
                     "DACtime": [7,1],
                     "mask": [false,1],
-                    "gain_hg": [10,2],
+                    "gain_hg": [50,2],
                     "gain_lg": [10,2]
                 },
                 "ch_6": {
-                    "inputDAC": [50,2],
+                    "inputDAC": [230,2],
                     "DACtime": [7,1],
                     "mask": [false,1],
-                    "gain_hg": [10,2],
+                    "gain_hg": [50,2],
                     "gain_lg": [10,2]
                 },
                 "ch_7": {
-                    "inputDAC": [50,2],
+                    "inputDAC": [230,2],
                     "DACtime": [7,1],
                     "mask": [false,1],
-                    "gain_hg": [10,2],
+                    "gain_hg": [50,2],
                     "gain_lg": [10,2]
                 },
                 "ch_8": {
-                    "inputDAC": [50,2],
+                    "inputDAC": [230,2],
                     "DACtime": [7,1],
                     "mask": [false,1],
-                    "gain_hg": [10,2],
+                    "gain_hg": [50,2],
                     "gain_lg": [10,2]
                 },
                 "ch_9": {
-                    "inputDAC": [50,2],
+                    "inputDAC": [230,2],
                     "DACtime": [7,1],
                     "mask": [false,1],
-                    "gain_hg": [10,2],
+                    "gain_hg": [50,2],
                     "gain_lg": [10,2]
                 },
                 "ch_10": {
-                    "inputDAC": [50,2],
+                    "inputDAC": [230,2],
                     "DACtime": [7,1],
                     "mask": [false,1],
-                    "gain_hg": [10,2],
+                    "gain_hg": [50,2],
                     "gain_lg": [10,2]
                 },
                 "ch_11": {
-                    "inputDAC": [50,2],
+                    "inputDAC": [230,2],
                     "DACtime": [7,1],
                     "mask": [false,1],
-                    "gain_hg": [10,2],
+                    "gain_hg": [50,2],
                     "gain_lg": [10,2]
                 },
                 "ch_12": {
-                    "inputDAC": [50,2],
+                    "inputDAC": [230,2],
                     "DACtime": [7,1],
                     "mask": [false,1],
-                    "gain_hg": [10,2],
+                    "gain_hg": [50,2],
                     "gain_lg": [10,2]
                 },
                 "ch_13": {
-                    "inputDAC": [50,2],
+                    "inputDAC": [230,2],
                     "DACtime": [7,1],
                     "mask": [false,1],
-                    "gain_hg": [10,2],
+                    "gain_hg": [50,2],
                     "gain_lg": [10,2]
                 },
                 "ch_14": {
-                    "inputDAC": [50,2],
+                    "inputDAC": [230,2],
                     "DACtime": [7,1],
                     "mask": [false,1],
-                    "gain_hg": [10,2],
+                    "gain_hg": [50,2],
                     "gain_lg": [10,2]
                 },
                 "ch_15": {
-                    "inputDAC": [50,2],
+                    "inputDAC": [230,2],
                     "DACtime": [7,1],
                     "mask": [false,1],
-                    "gain_hg": [10,2],
+                    "gain_hg": [50,2],
                     "gain_lg": [10,2]
                 },
                 "ch_16": {
-                    "inputDAC": [50,2],
+                    "inputDAC": [230,2],
                     "DACtime": [7,1],
                     "mask": [false,1],
-                    "gain_hg": [10,2],
+                    "gain_hg": [50,2],
                     "gain_lg": [10,2]
                 },
                 "ch_17": {
-                    "inputDAC": [50,2],
+                    "inputDAC": [230,2],
                     "DACtime": [7,1],
                     "mask": [false,1],
-                    "gain_hg": [10,2],
+                    "gain_hg": [50,2],
                     "gain_lg": [10,2]
                 },
                 "ch_18": {
-                    "inputDAC": [50,2],
+                    "inputDAC": [230,2],
                     "DACtime": [7,1],
                     "mask": [false,1],
-                    "gain_hg": [10,2],
+                    "gain_hg": [50,2],
                     "gain_lg": [10,2]
                 },
                 "ch_19": {
-                    "inputDAC": [50,2],
+                    "inputDAC": [230,2],
                     "DACtime": [7,1],
                     "mask": [false,1],
-                    "gain_hg": [10,2],
+                    "gain_hg": [50,2],
                     "gain_lg": [10,2]
                 },
                 "ch_20": {
-                    "inputDAC": [50,2],
+                    "inputDAC": [230,2],
                     "DACtime": [7,1],
                     "mask": [false,1],
-                    "gain_hg": [10,2],
+                    "gain_hg": [50,2],
                     "gain_lg": [10,2]
                 },
                 "ch_21": {
-                    "inputDAC": [50,2],
+                    "inputDAC": [230,2],
                     "DACtime": [7,1],
                     "mask": [false,1],
-                    "gain_hg": [10,2],
+                    "gain_hg": [50,2],
                     "gain_lg": [10,2]
                 },
                 "ch_22": {
-                    "inputDAC": [50,2],
+                    "inputDAC": [230,2],
                     "DACtime": [7,1],
                     "mask": [false,1],
-                    "gain_hg": [10,2],
+                    "gain_hg": [50,2],
                     "gain_lg": [10,2]
                 },
                 "ch_23": {
-                    "inputDAC": [50,2],
+                    "inputDAC": [230,2],
                     "DACtime": [7,1],
                     "mask": [false,1],
-                    "gain_hg": [10,2],
+                    "gain_hg": [50,2],
                     "gain_lg": [10,2]
                 },
                 "ch_24": {
-                    "inputDAC": [50,2],
+                    "inputDAC": [230,2],
                     "DACtime": [7,1],
                     "mask": [false,1],
-                    "gain_hg": [10,2],
+                    "gain_hg": [50,2],
                     "gain_lg": [10,2]
                 },
                 "ch_25": {
-                    "inputDAC": [50,2],
+                    "inputDAC": [230,2],
                     "DACtime": [7,1],
                     "mask": [false,1],
-                    "gain_hg": [10,2],
+                    "gain_hg": [50,2],
                     "gain_lg": [10,2]
                 },
                 "ch_26": {
-                    "inputDAC": [50,2],
+                    "inputDAC": [230,2],
                     "DACtime": [7,1],
                     "mask": [false,1],
-                    "gain_hg": [10,2],
+                    "gain_hg": [50,2],
                     "gain_lg": [10,2]
                 },
                 "ch_27": {
-                    "inputDAC": [50,2],
+                    "inputDAC": [230,2],
                     "DACtime": [7,1],
                     "mask": [false,1],
-                    "gain_hg": [10,2],
+                    "gain_hg": [50,2],
                     "gain_lg": [10,2]
                 },
                 "ch_28": {
-                    "inputDAC": [50,2],
+                    "inputDAC": [230,2],
                     "DACtime": [7,1],
                     "mask": [false,1],
-                    "gain_hg": [10,2],
+                    "gain_hg": [50,2],
                     "gain_lg": [10,2]
                 },
                 "ch_29": {
-                    "inputDAC": [50,2],
+                    "inputDAC": [230,2],
                     "DACtime": [7,1],
                     "mask": [false,1],
-                    "gain_hg": [10,2],
+                    "gain_hg": [50,2],
                     "gain_lg": [10,2]
                 },
                 "ch_30": {
-                    "inputDAC": [50,2],
+                    "inputDAC": [230,2],
                     "DACtime": [7,1],
                     "mask": [false,1],
-                    "gain_hg": [10,2],
+                    "gain_hg": [50,2],
                     "gain_lg": [10,2]
                 },
                 "ch_31": {
-                    "inputDAC": [50,2],
+                    "inputDAC": [230,2],
                     "DACtime": [7,1],
                     "mask": [false,1],
-                    "gain_hg": [10,2],
+                    "gain_hg": [50,2],
                     "gain_lg": [10,2]
                 }
             },
@@ -2157,233 +2157,233 @@
                    "fastsh_source": ["h", 1],
                     "HGshtime": [2,1],
                     "LGshtime": [2,1],
-                    "input_DACref": [0,1],
-                    "timethrs": [320,2],
+                    "input_DACref": [230,1],
+                    "timethrs": [300,2],
                     "chargeth": [450,2]
                     
                 },
                 "ch_0": {
-                    "inputDAC": [50,2],
+                    "inputDAC": [230,2],
                     "DACtime": [7,1],
                     "mask": [false,1],
-                    "gain_hg": [10,2],
+                    "gain_hg": [50,2],
                     "gain_lg": [10,2]
                 },
                 "ch_1": {
-                    "inputDAC": [50,2],
+                    "inputDAC": [230,2],
                     "DACtime": [7,1],
                     "mask": [false,1],
-                    "gain_hg": [10,2],
+                    "gain_hg": [50,2],
                     "gain_lg": [10,2]
                 },
                 "ch_2": {
-                    "inputDAC": [50,2],
+                    "inputDAC": [230,2],
                     "DACtime": [7,1],
                     "mask": [false,1],
-                    "gain_hg": [10,2],
+                    "gain_hg": [50,2],
                     "gain_lg": [10,2]
                 },
                 "ch_3": {
-                    "inputDAC": [50,2],
+                    "inputDAC": [230,2],
                     "DACtime": [7,1],
                     "mask": [false,1],
-                    "gain_hg": [10,2],
+                    "gain_hg": [50,2],
                     "gain_lg": [10,2]
                 },
                 "ch_4": {
-                    "inputDAC": [50,2],
+                    "inputDAC": [230,2],
                     "DACtime": [7,1],
                     "mask": [false,1],
-                    "gain_hg": [10,2],
+                    "gain_hg": [50,2],
                     "gain_lg": [10,2]
                 },
                 "ch_5": {
-                    "inputDAC": [50,2],
+                    "inputDAC": [230,2],
                     "DACtime": [7,1],
                     "mask": [false,1],
-                    "gain_hg": [10,2],
+                    "gain_hg": [50,2],
                     "gain_lg": [10,2]
                 },
                 "ch_6": {
-                    "inputDAC": [50,2],
+                    "inputDAC": [230,2],
                     "DACtime": [7,1],
                     "mask": [false,1],
-                    "gain_hg": [10,2],
+                    "gain_hg": [50,2],
                     "gain_lg": [10,2]
                 },
                 "ch_7": {
-                    "inputDAC": [50,2],
+                    "inputDAC": [230,2],
                     "DACtime": [7,1],
                     "mask": [false,1],
-                    "gain_hg": [10,2],
+                    "gain_hg": [50,2],
                     "gain_lg": [10,2]
                 },
                 "ch_8": {
-                    "inputDAC": [50,2],
+                    "inputDAC": [230,2],
                     "DACtime": [7,1],
                     "mask": [false,1],
-                    "gain_hg": [10,2],
+                    "gain_hg": [50,2],
                     "gain_lg": [10,2]
                 },
                 "ch_9": {
-                    "inputDAC": [50,2],
+                    "inputDAC": [230,2],
                     "DACtime": [7,1],
                     "mask": [false,1],
-                    "gain_hg": [10,2],
+                    "gain_hg": [50,2],
                     "gain_lg": [10,2]
                 },
                 "ch_10": {
-                    "inputDAC": [50,2],
+                    "inputDAC": [230,2],
                     "DACtime": [7,1],
                     "mask": [false,1],
-                    "gain_hg": [10,2],
+                    "gain_hg": [50,2],
                     "gain_lg": [10,2]
                 },
                 "ch_11": {
-                    "inputDAC": [50,2],
+                    "inputDAC": [230,2],
                     "DACtime": [7,1],
                     "mask": [false,1],
-                    "gain_hg": [10,2],
+                    "gain_hg": [50,2],
                     "gain_lg": [10,2]
                 },
                 "ch_12": {
-                    "inputDAC": [50,2],
+                    "inputDAC": [230,2],
                     "DACtime": [7,1],
                     "mask": [false,1],
-                    "gain_hg": [10,2],
+                    "gain_hg": [50,2],
                     "gain_lg": [10,2]
                 },
                 "ch_13": {
-                    "inputDAC": [50,2],
+                    "inputDAC": [230,2],
                     "DACtime": [7,1],
                     "mask": [false,1],
-                    "gain_hg": [10,2],
+                    "gain_hg": [50,2],
                     "gain_lg": [10,2]
                 },
                 "ch_14": {
-                    "inputDAC": [50,2],
+                    "inputDAC": [230,2],
                     "DACtime": [7,1],
                     "mask": [false,1],
-                    "gain_hg": [10,2],
+                    "gain_hg": [50,2],
                     "gain_lg": [10,2]
                 },
                 "ch_15": {
-                    "inputDAC": [50,2],
+                    "inputDAC": [230,2],
                     "DACtime": [7,1],
                     "mask": [false,1],
-                    "gain_hg": [10,2],
+                    "gain_hg": [50,2],
                     "gain_lg": [10,2]
                 },
                 "ch_16": {
-                    "inputDAC": [50,2],
+                    "inputDAC": [230,2],
                     "DACtime": [7,1],
                     "mask": [false,1],
-                    "gain_hg": [10,2],
+                    "gain_hg": [50,2],
                     "gain_lg": [10,2]
                 },
                 "ch_17": {
-                    "inputDAC": [50,2],
+                    "inputDAC": [230,2],
                     "DACtime": [7,1],
                     "mask": [false,1],
-                    "gain_hg": [10,2],
+                    "gain_hg": [50,2],
                     "gain_lg": [10,2]
                 },
                 "ch_18": {
-                    "inputDAC": [50,2],
+                    "inputDAC": [230,2],
                     "DACtime": [7,1],
                     "mask": [false,1],
-                    "gain_hg": [10,2],
+                    "gain_hg": [50,2],
                     "gain_lg": [10,2]
                 },
                 "ch_19": {
-                    "inputDAC": [50,2],
+                    "inputDAC": [230,2],
                     "DACtime": [7,1],
                     "mask": [false,1],
-                    "gain_hg": [10,2],
+                    "gain_hg": [50,2],
                     "gain_lg": [10,2]
                 },
                 "ch_20": {
-                    "inputDAC": [50,2],
+                    "inputDAC": [230,2],
                     "DACtime": [7,1],
                     "mask": [false,1],
-                    "gain_hg": [10,2],
+                    "gain_hg": [50,2],
                     "gain_lg": [10,2]
                 },
                 "ch_21": {
-                    "inputDAC": [50,2],
+                    "inputDAC": [230,2],
                     "DACtime": [7,1],
                     "mask": [false,1],
-                    "gain_hg": [10,2],
+                    "gain_hg": [50,2],
                     "gain_lg": [10,2]
                 },
                 "ch_22": {
-                    "inputDAC": [50,2],
+                    "inputDAC": [230,2],
                     "DACtime": [7,1],
                     "mask": [false,1],
-                    "gain_hg": [10,2],
+                    "gain_hg": [50,2],
                     "gain_lg": [10,2]
                 },
                 "ch_23": {
-                    "inputDAC": [50,2],
+                    "inputDAC": [230,2],
                     "DACtime": [7,1],
                     "mask": [false,1],
-                    "gain_hg": [10,2],
+                    "gain_hg": [50,2],
                     "gain_lg": [10,2]
                 },
                 "ch_24": {
-                    "inputDAC": [50,2],
+                    "inputDAC": [230,2],
                     "DACtime": [7,1],
                     "mask": [false,1],
-                    "gain_hg": [10,2],
+                    "gain_hg": [50,2],
                     "gain_lg": [10,2]
                 },
                 "ch_25": {
-                    "inputDAC": [50,2],
+                    "inputDAC": [230,2],
                     "DACtime": [7,1],
                     "mask": [false,1],
-                    "gain_hg": [10,2],
+                    "gain_hg": [50,2],
                     "gain_lg": [10,2]
                 },
                 "ch_26": {
-                    "inputDAC": [50,2],
+                    "inputDAC": [230,2],
                     "DACtime": [7,1],
                     "mask": [false,1],
-                    "gain_hg": [10,2],
+                    "gain_hg": [50,2],
                     "gain_lg": [10,2]
                 },
                 "ch_27": {
-                    "inputDAC": [50,2],
+                    "inputDAC": [230,2],
                     "DACtime": [7,1],
                     "mask": [false,1],
-                    "gain_hg": [10,2],
+                    "gain_hg": [50,2],
                     "gain_lg": [10,2]
                 },
                 "ch_28": {
-                    "inputDAC": [50,2],
+                    "inputDAC": [230,2],
                     "DACtime": [7,1],
                     "mask": [false,1],
-                    "gain_hg": [10,2],
+                    "gain_hg": [50,2],
                     "gain_lg": [10,2]
                 },
                 "ch_29": {
-                    "inputDAC": [50,2],
+                    "inputDAC": [230,2],
                     "DACtime": [7,1],
                     "mask": [false,1],
-                    "gain_hg": [10,2],
+                    "gain_hg": [50,2],
                     "gain_lg": [10,2]
                 },
                 "ch_30": {
-                    "inputDAC": [50,2],
+                    "inputDAC": [230,2],
                     "DACtime": [7,1],
                     "mask": [false,1],
-                    "gain_hg": [10,2],
+                    "gain_hg": [50,2],
                     "gain_lg": [10,2]
                 },
                 "ch_31": {
-                    "inputDAC": [50,2],
+                    "inputDAC": [230,2],
                     "DACtime": [7,1],
                     "mask": [false,1],
-                    "gain_hg": [10,2],
+                    "gain_hg": [50,2],
                     "gain_lg": [10,2]
                 }
             },
@@ -2392,233 +2392,233 @@
                    "fastsh_source": ["h", 1],
                     "HGshtime": [2,1],
                     "LGshtime": [2,1],
-                    "input_DACref": [0,1],
-                    "timethrs": [320,2],
+                    "input_DACref": [230,1],
+                    "timethrs": [300,2],
                     "chargeth": [450,2]
                     
                 },
                 "ch_0": {
-                    "inputDAC": [50,2],
+                    "inputDAC": [230,2],
                     "DACtime": [7,1],
                     "mask": [false,1],
-                    "gain_hg": [10,2],
+                    "gain_hg": [50,2],
                     "gain_lg": [10,2]
                 },
                 "ch_1": {
-                    "inputDAC": [50,2],
+                    "inputDAC": [230,2],
                     "DACtime": [7,1],
                     "mask": [false,1],
-                    "gain_hg": [10,2],
+                    "gain_hg": [50,2],
                     "gain_lg": [10,2]
                 },
                 "ch_2": {
-                    "inputDAC": [50,2],
+                    "inputDAC": [230,2],
                     "DACtime": [7,1],
                     "mask": [false,1],
-                    "gain_hg": [10,2],
+                    "gain_hg": [50,2],
                     "gain_lg": [10,2]
                 },
                 "ch_3": {
-                    "inputDAC": [50,2],
+                    "inputDAC": [230,2],
                     "DACtime": [7,1],
                     "mask": [false,1],
-                    "gain_hg": [10,2],
+                    "gain_hg": [50,2],
                     "gain_lg": [10,2]
                 },
                 "ch_4": {
-                    "inputDAC": [50,2],
+                    "inputDAC": [230,2],
                     "DACtime": [7,1],
                     "mask": [false,1],
-                    "gain_hg": [10,2],
+                    "gain_hg": [50,2],
                     "gain_lg": [10,2]
                 },
                 "ch_5": {
-                    "inputDAC": [50,2],
+                    "inputDAC": [230,2],
                     "DACtime": [7,1],
                     "mask": [false,1],
-                    "gain_hg": [10,2],
+                    "gain_hg": [50,2],
                     "gain_lg": [10,2]
                 },
                 "ch_6": {
-                    "inputDAC": [50,2],
+                    "inputDAC": [230,2],
                     "DACtime": [7,1],
                     "mask": [false,1],
-                    "gain_hg": [10,2],
+                    "gain_hg": [50,2],
                     "gain_lg": [10,2]
                 },
                 "ch_7": {
-                    "inputDAC": [50,2],
+                    "inputDAC": [230,2],
                     "DACtime": [7,1],
                     "mask": [false,1],
-                    "gain_hg": [10,2],
+                    "gain_hg": [50,2],
                     "gain_lg": [10,2]
                 },
                 "ch_8": {
-                    "inputDAC": [50,2],
+                    "inputDAC": [230,2],
                     "DACtime": [7,1],
                     "mask": [false,1],
-                    "gain_hg": [10,2],
+                    "gain_hg": [50,2],
                     "gain_lg": [10,2]
                 },
                 "ch_9": {
-                    "inputDAC": [50,2],
+                    "inputDAC": [230,2],
                     "DACtime": [7,1],
                     "mask": [false,1],
-                    "gain_hg": [10,2],
+                    "gain_hg": [50,2],
                     "gain_lg": [10,2]
                 },
                 "ch_10": {
-                    "inputDAC": [50,2],
+                    "inputDAC": [230,2],
                     "DACtime": [7,1],
                     "mask": [false,1],
-                    "gain_hg": [10,2],
+                    "gain_hg": [50,2],
                     "gain_lg": [10,2]
                 },
                 "ch_11": {
-                    "inputDAC": [50,2],
+                    "inputDAC": [230,2],
                     "DACtime": [7,1],
                     "mask": [false,1],
-                    "gain_hg": [10,2],
+                    "gain_hg": [50,2],
                     "gain_lg": [10,2]
                 },
                 "ch_12": {
-                    "inputDAC": [50,2],
+                    "inputDAC": [230,2],
                     "DACtime": [7,1],
                     "mask": [false,1],
-                    "gain_hg": [10,2],
+                    "gain_hg": [50,2],
                     "gain_lg": [10,2]
                 },
                 "ch_13": {
-                    "inputDAC": [50,2],
+                    "inputDAC": [230,2],
                     "DACtime": [7,1],
                     "mask": [false,1],
-                    "gain_hg": [10,2],
+                    "gain_hg": [50,2],
                     "gain_lg": [10,2]
                 },
                 "ch_14": {
-                    "inputDAC": [50,2],
+                    "inputDAC": [230,2],
                     "DACtime": [7,1],
                     "mask": [false,1],
-                    "gain_hg": [10,2],
+                    "gain_hg": [50,2],
                     "gain_lg": [10,2]
                 },
                 "ch_15": {
-                    "inputDAC": [50,2],
+                    "inputDAC": [230,2],
                     "DACtime": [7,1],
                     "mask": [false,1],
-                    "gain_hg": [10,2],
+                    "gain_hg": [50,2],
                     "gain_lg": [10,2]
                 },
                 "ch_16": {
-                    "inputDAC": [50,2],
+                    "inputDAC": [230,2],
                     "DACtime": [7,1],
                     "mask": [false,1],
-                    "gain_hg": [10,2],
+                    "gain_hg": [50,2],
                     "gain_lg": [10,2]
                 },
                 "ch_17": {
-                    "inputDAC": [50,2],
+                    "inputDAC": [230,2],
                     "DACtime": [7,1],
                     "mask": [false,1],
-                    "gain_hg": [10,2],
+                    "gain_hg": [50,2],
                     "gain_lg": [10,2]
                 },
                 "ch_18": {
-                    "inputDAC": [50,2],
+                    "inputDAC": [230,2],
                     "DACtime": [7,1],
                     "mask": [false,1],
-                    "gain_hg": [10,2],
+                    "gain_hg": [50,2],
                     "gain_lg": [10,2]
                 },
                 "ch_19": {
-                    "inputDAC": [50,2],
+                    "inputDAC": [230,2],
                     "DACtime": [7,1],
                     "mask": [false,1],
-                    "gain_hg": [10,2],
+                    "gain_hg": [50,2],
                     "gain_lg": [10,2]
                 },
                 "ch_20": {
-                    "inputDAC": [50,2],
+                    "inputDAC": [230,2],
                     "DACtime": [7,1],
                     "mask": [false,1],
-                    "gain_hg": [10,2],
+                    "gain_hg": [50,2],
                     "gain_lg": [10,2]
                 },
                 "ch_21": {
-                    "inputDAC": [50,2],
+                    "inputDAC": [230,2],
                     "DACtime": [7,1],
                     "mask": [false,1],
-                    "gain_hg": [10,2],
+                    "gain_hg": [50,2],
                     "gain_lg": [10,2]
                 },
                 "ch_22": {
-                    "inputDAC": [50,2],
+                    "inputDAC": [230,2],
                     "DACtime": [7,1],
                     "mask": [false,1],
-                    "gain_hg": [10,2],
+                    "gain_hg": [50,2],
                     "gain_lg": [10,2]
                 },
                 "ch_23": {
-                    "inputDAC": [50,2],
+                    "inputDAC": [230,2],
                     "DACtime": [7,1],
                     "mask": [false,1],
-                    "gain_hg": [10,2],
+                    "gain_hg": [50,2],
                     "gain_lg": [10,2]
                 },
                 "ch_24": {
-                    "inputDAC": [50,2],
+                    "inputDAC": [230,2],
                     "DACtime": [7,1],
                     "mask": [false,1],
-                    "gain_hg": [10,2],
+                    "gain_hg": [50,2],
                     "gain_lg": [10,2]
                 },
                 "ch_25": {
-                    "inputDAC": [50,2],
+                    "inputDAC": [230,2],
                     "DACtime": [7,1],
                     "mask": [false,1],
-                    "gain_hg": [10,2],
+                    "gain_hg": [50,2],
                     "gain_lg": [10,2]
                 },
                 "ch_26": {
-                    "inputDAC": [50,2],
+                    "inputDAC": [230,2],
                     "DACtime": [7,1],
                     "mask": [false,1],
-                    "gain_hg": [10,2],
+                    "gain_hg": [50,2],
                     "gain_lg": [10,2]
                 },
                 "ch_27": {
-                    "inputDAC": [50,2],
+                    "inputDAC": [230,2],
                     "DACtime": [7,1],
                     "mask": [false,1],
-                    "gain_hg": [10,2],
+                    "gain_hg": [50,2],
                     "gain_lg": [10,2]
                 },
                 "ch_28": {
-                    "inputDAC": [50,2],
+                    "inputDAC": [230,2],
                     "DACtime": [7,1],
                     "mask": [false,1],
-                    "gain_hg": [10,2],
+                    "gain_hg": [50,2],
                     "gain_lg": [10,2]
                 },
                 "ch_29": {
-                    "inputDAC": [50,2],
+                    "inputDAC": [230,2],
                     "DACtime": [7,1],
                     "mask": [false,1],
-                    "gain_hg": [10,2],
+                    "gain_hg": [50,2],
                     "gain_lg": [10,2]
                 },
                 "ch_30": {
-                    "inputDAC": [50,2],
+                    "inputDAC": [230,2],
                     "DACtime": [7,1],
                     "mask": [false,1],
-                    "gain_hg": [10,2],
+                    "gain_hg": [50,2],
                     "gain_lg": [10,2]
                 },
                 "ch_31": {
-                    "inputDAC": [50,2],
+                    "inputDAC": [230,2],
                     "DACtime": [7,1],
                     "mask": [false,1],
-                    "gain_hg": [10,2],
+                    "gain_hg": [50,2],
                     "gain_lg": [10,2]
                 }
             },
@@ -2627,233 +2627,233 @@
                    "fastsh_source": ["h", 1],
                     "HGshtime": [2,1],
                     "LGshtime": [2,1],
-                    "input_DACref": [0,1],
-                    "timethrs": [320,2],
+                    "input_DACref": [230,1],
+                    "timethrs": [300,2],
                     "chargeth": [450,2]
                     
                 },
                 "ch_0": {
-                    "inputDAC": [50,2],
+                    "inputDAC": [230,2],
                     "DACtime": [7,1],
                     "mask": [false,1],
-                    "gain_hg": [10,2],
+                    "gain_hg": [50,2],
                     "gain_lg": [10,2]
                 },
                 "ch_1": {
-                    "inputDAC": [50,2],
+                    "inputDAC": [230,2],
                     "DACtime": [7,1],
                     "mask": [false,1],
-                    "gain_hg": [10,2],
+                    "gain_hg": [50,2],
                     "gain_lg": [10,2]
                 },
                 "ch_2": {
-                    "inputDAC": [50,2],
+                    "inputDAC": [230,2],
                     "DACtime": [7,1],
                     "mask": [false,1],
-                    "gain_hg": [10,2],
+                    "gain_hg": [50,2],
                     "gain_lg": [10,2]
                 },
                 "ch_3": {
-                    "inputDAC": [50,2],
+                    "inputDAC": [230,2],
                     "DACtime": [7,1],
                     "mask": [false,1],
-                    "gain_hg": [10,2],
+                    "gain_hg": [50,2],
                     "gain_lg": [10,2]
                 },
                 "ch_4": {
-                    "inputDAC": [127,2],
+                    "inputDAC": [230,2],
                     "DACtime": [7,1],
                     "mask": [false,1],
-                    "gain_hg": [10,2],
+                    "gain_hg": [50,2],
                     "gain_lg": [10,2]
                 },
                 "ch_5": {
-                    "inputDAC": [127,2],
+                    "inputDAC": [230,2],
                     "DACtime": [7,1],
                     "mask": [false,1],
-                    "gain_hg": [10,2],
+                    "gain_hg": [50,2],
                     "gain_lg": [10,2]
                 },
                 "ch_6": {
-                    "inputDAC": [127,2],
+                    "inputDAC": [230,2],
                     "DACtime": [7,1],
                     "mask": [false,1],
-                    "gain_hg": [10,2],
+                    "gain_hg": [50,2],
                     "gain_lg": [10,2]
                 },
                 "ch_7": {
-                    "inputDAC": [50,2],
+                    "inputDAC": [230,2],
                     "DACtime": [7,1],
                     "mask": [false,1],
-                    "gain_hg": [10,2],
+                    "gain_hg": [50,2],
                     "gain_lg": [10,2]
                 },
                 "ch_8": {
-                    "inputDAC": [50,2],
+                    "inputDAC": [230,2],
                     "DACtime": [7,1],
                     "mask": [false,1],
-                    "gain_hg": [10,2],
+                    "gain_hg": [50,2],
                     "gain_lg": [10,2]
                 },
                 "ch_9": {
-                    "inputDAC": [50,2],
+                    "inputDAC": [230,2],
                     "DACtime": [7,1],
                     "mask": [false,1],
-                    "gain_hg": [10,2],
+                    "gain_hg": [50,2],
                     "gain_lg": [10,2]
                 },
                 "ch_10": {
-                    "inputDAC": [50,2],
+                    "inputDAC": [230,2],
                     "DACtime": [7,1],
                     "mask": [false,1],
-                    "gain_hg": [10,2],
+                    "gain_hg": [50,2],
                     "gain_lg": [10,2]
                 },
                 "ch_11": {
-                    "inputDAC": [50,2],
+                    "inputDAC": [230,2],
                     "DACtime": [7,1],
                     "mask": [false,1],
-                    "gain_hg": [10,2],
+                    "gain_hg": [50,2],
                     "gain_lg": [10,2]
                 },
                 "ch_12": {
-                    "inputDAC": [50,2],
+                    "inputDAC": [230,2],
                     "DACtime": [7,1],
                     "mask": [false,1],
-                    "gain_hg": [10,2],
+                    "gain_hg": [50,2],
                     "gain_lg": [10,2]
                 },
                 "ch_13": {
-                    "inputDAC": [50,2],
+                    "inputDAC": [230,2],
                     "DACtime": [7,1],
                     "mask": [false,1],
-                    "gain_hg": [10,2],
+                    "gain_hg": [50,2],
                     "gain_lg": [10,2]
                 },
                 "ch_14": {
-                    "inputDAC": [50,2],
+                    "inputDAC": [230,2],
                     "DACtime": [7,1],
                     "mask": [false,1],
-                    "gain_hg": [10,2],
+                    "gain_hg": [50,2],
                     "gain_lg": [10,2]
                 },
                 "ch_15": {
-                    "inputDAC": [50,2],
+                    "inputDAC": [230,2],
                     "DACtime": [7,1],
                     "mask": [false,1],
-                    "gain_hg": [10,2],
+                    "gain_hg": [50,2],
                     "gain_lg": [10,2]
                 },
                 "ch_16": {
-                    "inputDAC": [50,2],
+                    "inputDAC": [230,2],
                     "DACtime": [7,1],
                     "mask": [false,1],
-                    "gain_hg": [10,2],
+                    "gain_hg": [50,2],
                     "gain_lg": [10,2]
                 },
                 "ch_17": {
-                    "inputDAC": [50,2],
+                    "inputDAC": [230,2],
                     "DACtime": [7,1],
                     "mask": [false,1],
-                    "gain_hg": [10,2],
+                    "gain_hg": [50,2],
                     "gain_lg": [10,2]
                 },
                 "ch_18": {
-                    "inputDAC": [50,2],
+                    "inputDAC": [230,2],
                     "DACtime": [7,1],
                     "mask": [false,1],
-                    "gain_hg": [10,2],
+                    "gain_hg": [50,2],
                     "gain_lg": [10,2]
                 },
                 "ch_19": {
-                    "inputDAC": [50,2],
+                    "inputDAC": [230,2],
                     "DACtime": [7,1],
                     "mask": [false,1],
-                    "gain_hg": [10,2],
+                    "gain_hg": [50,2],
                     "gain_lg": [10,2]
                 },
                 "ch_20": {
-                    "inputDAC": [50,2],
+                    "inputDAC": [230,2],
                     "DACtime": [7,1],
                     "mask": [false,1],
-                    "gain_hg": [10,2],
+                    "gain_hg": [50,2],
                     "gain_lg": [10,2]
                 },
                 "ch_21": {
-                    "inputDAC": [50,2],
+                    "inputDAC": [230,2],
                     "DACtime": [7,1],
                     "mask": [false,1],
-                    "gain_hg": [10,2],
+                    "gain_hg": [50,2],
                     "gain_lg": [10,2]
                 },
                 "ch_22": {
-                    "inputDAC": [50,2],
+                    "inputDAC": [230,2],
                     "DACtime": [7,1],
                     "mask": [false,1],
-                    "gain_hg": [10,2],
+                    "gain_hg": [50,2],
                     "gain_lg": [10,2]
                 },
                 "ch_23": {
-                    "inputDAC": [50,2],
+                    "inputDAC": [230,2],
                     "DACtime": [7,1],
                     "mask": [false,1],
-                    "gain_hg": [10,2],
+                    "gain_hg": [50,2],
                     "gain_lg": [10,2]
                 },
                 "ch_24": {
-                    "inputDAC": [50,2],
+                    "inputDAC": [230,2],
                     "DACtime": [7,1],
                     "mask": [false,1],
-                    "gain_hg": [10,2],
+                    "gain_hg": [50,2],
                     "gain_lg": [10,2]
                 },
                 "ch_25": {
-                    "inputDAC": [50,2],
+                    "inputDAC": [230,2],
                     "DACtime": [7,1],
                     "mask": [false,1],
-                    "gain_hg": [10,2],
+                    "gain_hg": [50,2],
                     "gain_lg": [10,2]
                 },
                 "ch_26": {
-                    "inputDAC": [50,2],
+                    "inputDAC": [230,2],
                     "DACtime": [7,1],
                     "mask": [false,1],
-                    "gain_hg": [10,2],
+                    "gain_hg": [50,2],
                     "gain_lg": [10,2]
                 },
                 "ch_27": {
-                    "inputDAC": [50,2],
+                    "inputDAC": [230,2],
                     "DACtime": [7,1],
                     "mask": [false,1],
-                    "gain_hg": [10,2],
+                    "gain_hg": [50,2],
                     "gain_lg": [10,2]
                 },
                 "ch_28": {
-                    "inputDAC": [50,2],
+                    "inputDAC": [230,2],
                     "DACtime": [7,1],
                     "mask": [false,1],
-                    "gain_hg": [10,2],
+                    "gain_hg": [50,2],
                     "gain_lg": [10,2]
                 },
                 "ch_29": {
-                    "inputDAC": [50,2],
+                    "inputDAC": [230,2],
                     "DACtime": [7,1],
                     "mask": [false,1],
-                    "gain_hg": [10,2],
+                    "gain_hg": [50,2],
                     "gain_lg": [10,2]
                 },
                 "ch_30": {
-                    "inputDAC": [50,2],
+                    "inputDAC": [230,2],
                     "DACtime": [7,1],
                     "mask": [false,1],
-                    "gain_hg": [10,2],
+                    "gain_hg": [50,2],
                     "gain_lg": [10,2]
                 },
                 "ch_31": {
-                    "inputDAC": [50,2],
+                    "inputDAC": [230,2],
                     "DACtime": [7,1],
                     "mask": [false,1],
-                    "gain_hg": [10,2],
+                    "gain_hg": [50,2],
                     "gain_lg": [10,2]
                 }
             }

@@ -4,7 +4,7 @@ import pandas as pd
 import cfg_converter as cfg
 
 ##############################################################################################
-SERVER_IP = "192.168.100.50"
+SERVER_IP = "192.168.100.200"
 PORT_CONTROL = 3000
 PORT_DATA = 2000
 SOCK_TIMEOUT = 1
@@ -242,7 +242,9 @@ if __name__ == "__main__":
                     if received is None or len(received) == 0:
                         print("Nessun dato ricevuto")
                         continue
-                    
+                    elif len(received) < 20:
+                        continue
+
                     else:
                         event_count += 1
                         if event_count % 1000 == 0:
@@ -292,6 +294,8 @@ if __name__ == "__main__":
                     if received is None or len(received) == 0:
                         print("Nessun dato ricevuto")
                         continue
+                    elif len(received) < 20:
+                        continue
                     else:
                         event_count += 1
                         if event_count % 1000 == 0:
@@ -335,28 +339,29 @@ if __name__ == "__main__":
 
         elif TYPE == "stats":
             try:
-                ZIRE.CONTROL.sendall(b"getstats")
-                time.sleep(1)
-                ZIRE.CONTROL.settimeout(2)
-                received = bytearray()
-                while len(received) < (2*(192+16)*4):
-                    chunk = ZIRE.CONTROL.recv( (2*(192+16)*4) - len(received))
-                    if not chunk:
-                        print("Connessione chiusa durante la ricezione delle statistiche")
-                    received.extend(chunk)
-                
-                stats = np.frombuffer(received, dtype=np.uint32)
+                while (True):
+                    time.sleep(1)
+                    ZIRE.CONTROL.sendall(b"getstats")
+                    ZIRE.CONTROL.settimeout(2)
+                    received = bytearray()
+                    while len(received) < (2*(192+16)*4):
+                        chunk = ZIRE.CONTROL.recv( (2*(192+16)*4) - len(received))
+                        if not chunk:
+                            print("Connessione chiusa durante la ricezione delle statistiche")
+                        received.extend(chunk)
+                    
+                    stats = np.frombuffer(received, dtype=np.uint32)
 
-                # Segmentazione
-                rate1 = stats[0:192]
-                temp1 = stats[192:192+16]
-                rate2 = stats[192+16:192+16+192]
-                temp2 = stats[192+16+192:]
+                    # Segmentazione
+                    rate1 = stats[0:192]
+                    temp1 = stats[192:192+16]
+                    rate2 = stats[192+16:192+16+192]
+                    temp2 = stats[192+16+192:]
 
-                print("Rate 1:", rate1)
-                print("Temp 1:", temp1)
-                print("Rate 2:", rate2)
-                print("Temp 2:", temp2)
+                    print("Rate 1:", rate1)
+                    print("Temp 1:", temp1)
+                    print("Rate 2:", rate2)
+                    print("Temp 2:", temp2)
 
             except socket.timeout:
                 print("Timeout: nessun dato disponibile.")

@@ -5,7 +5,7 @@ from PyQt5.QtWidgets import QMainWindow, QTabWidget, QGridLayout, QWidget, QActi
 from PyQt5.QtCore import QThread, pyqtSignal
 import config, data, icr_ocr
 
-SERVER_IP = "192.168.100.50"
+SERVER_IP = "192.168.100.200"
 PORT_CONTROL = 3000
 PORT_DATA = 2000
 SOCK_TIMEOUT = 0.1
